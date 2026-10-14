@@ -1,11 +1,47 @@
 {
   "format": "light-export",
   "version": 1,
-  "exportedAt": "2026-10-13T10:11:18.173Z",
+  "exportedAt": "2026-10-14T10:11:18.169Z",
   "tables": {
-    "activities": [],
-    "activity_import_coverage": [],
-    "backup_runs": [],
+    "activities": [
+      {
+        "id": "9356a06b-0c61-476c-b87a-9a547a126cbe",
+        "raw": null,
+        "name": null,
+        "manual": false,
+        "source": "file",
+        "file_name": "5MileEasy+6x20sStrides20261013192717.fit",
+        "strava_id": null,
+        "created_at": "2026-10-14T01:17:41.886571+00:00",
+        "fetched_at": "2026-10-14T01:17:41.886571+00:00",
+        "local_date": "2026-10-13",
+        "sport_type": "Run",
+        "start_date": "2026-10-14T00:27:17+00:00",
+        "device_name": null,
+        "moving_seconds": 2691,
+        "planned_run_id": "3b282a91-6e3a-40e3-a35c-87f63faabbfa",
+        "distance_meters": 8068.2,
+        "elapsed_seconds": 2832,
+        "start_date_local": "2026-10-13T19:27:17"
+      }
+    ],
+    "activity_import_coverage": [
+      {
+        "id": true,
+        "updated_at": "2026-10-14T01:17:41.886571+00:00",
+        "covered_through": "2026-10-13"
+      }
+    ],
+    "backup_runs": [
+      {
+        "id": "97c15fe8-88a7-40cf-9e12-11bc7acb6e26",
+        "error": null,
+        "status": "succeeded",
+        "target": "github",
+        "location": "https://github.com/juanzenay/light-backup/blob/main/light-backup.json",
+        "created_at": "2026-10-13T10:11:18.159131+00:00"
+      }
+    ],
     "block_exercises": [
       {
         "id": "04a7716a-22b4-4810-a5ed-a5651e436477",
@@ -12567,6 +12603,29 @@
         ],
         "primary_muscles": [
           "biceps"
+        ],
+        "hevy_template_id": null,
+        "secondary_muscles": []
+      },
+      {
+        "id": "46d1ca02-3359-4926-94dd-9ec665ee2083",
+        "name": "Leverage Iso Low Row",
+        "force": null,
+        "level": null,
+        "source": "custom",
+        "category": "strength",
+        "mechanic": null,
+        "equipment": "machine",
+        "created_at": "2026-10-13T23:19:55.766471+00:00",
+        "source_ref": null,
+        "updated_at": "2026-10-13T23:19:55.766471+00:00",
+        "attribution": null,
+        "image_paths": [],
+        "instructions": [],
+        "primary_muscles": [
+          "lats",
+          "middle back",
+          "traps"
         ],
         "hevy_template_id": null,
         "secondary_muscles": []
@@ -34820,6 +34879,18 @@
         "created_at": "2026-10-13T00:59:37.086505+00:00"
       },
       {
+        "id": "04e04c5c-f1b5-4271-9d36-4070d395a271",
+        "url": "/export",
+        "body": null,
+        "kind": "backup_succeeded",
+        "level": "minor",
+        "title": {
+          "code": "backupSucceeded",
+          "target": "github"
+        },
+        "created_at": "2026-10-13T10:11:18.159131+00:00"
+      },
+      {
         "id": "14b12c9f-8d15-4036-b052-3e45b4787c5e",
         "url": "/plan-changes/4f815ae1-c563-4305-86b2-c54ec7704701",
         "body": [
@@ -36818,7 +36889,7 @@
         "row_index": 81,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -36841,7 +36912,7 @@
         "row_index": 55,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -36864,7 +36935,7 @@
         "row_index": 14,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -36887,7 +36958,7 @@
         "row_index": 51,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -36910,7 +36981,7 @@
         "row_index": 76,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -36933,7 +37004,7 @@
         "row_index": 77,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -36956,7 +37027,7 @@
         "row_index": 17,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -36979,7 +37050,7 @@
         "row_index": 18,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37002,7 +37073,7 @@
         "row_index": 16,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -37020,7 +37091,7 @@
         "row_index": 60,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37043,7 +37114,7 @@
         "row_index": 67,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37066,7 +37137,7 @@
         "row_index": 36,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37089,7 +37160,7 @@
         "row_index": 68,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37112,7 +37183,7 @@
         "row_index": 58,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37135,7 +37206,7 @@
         "row_index": 48,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37158,7 +37229,7 @@
         "row_index": 2,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37181,7 +37252,7 @@
         "row_index": 85,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37204,7 +37275,7 @@
         "row_index": 27,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37227,7 +37298,7 @@
         "row_index": 9,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37250,7 +37321,7 @@
         "row_index": 37,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37273,7 +37344,7 @@
         "row_index": 39,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37296,7 +37367,7 @@
         "row_index": 3,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37319,7 +37390,7 @@
         "row_index": 56,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37342,7 +37413,7 @@
         "row_index": 44,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -37360,7 +37431,7 @@
         "row_index": 78,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37383,7 +37454,7 @@
         "row_index": 32,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37406,7 +37477,7 @@
         "row_index": 84,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37429,7 +37500,7 @@
         "row_index": 50,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37452,7 +37523,7 @@
         "row_index": 12,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37471,11 +37542,11 @@
         "type": "easy",
         "week": 1,
         "notes": "6 x 20 s strides, full recovery",
-        "status": null,
+        "status": "done",
         "row_index": 0,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37483,8 +37554,8 @@
           ]
         },
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
-        "actual_meters": null,
-        "actual_seconds": null,
+        "actual_meters": 8068.2,
+        "actual_seconds": 2691,
         "distance_meters": 8047,
         "duration_seconds": null
       },
@@ -37498,7 +37569,7 @@
         "row_index": 43,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37521,7 +37592,7 @@
         "row_index": 5,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37544,7 +37615,7 @@
         "row_index": 79,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37567,7 +37638,7 @@
         "row_index": 23,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37590,7 +37661,7 @@
         "row_index": 82,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37613,7 +37684,7 @@
         "row_index": 28,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37636,7 +37707,7 @@
         "row_index": 26,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37659,7 +37730,7 @@
         "row_index": 15,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37682,7 +37753,7 @@
         "row_index": 10,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37705,7 +37776,7 @@
         "row_index": 69,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37728,7 +37799,7 @@
         "row_index": 30,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37751,7 +37822,7 @@
         "row_index": 66,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37774,7 +37845,7 @@
         "row_index": 29,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37797,7 +37868,7 @@
         "row_index": 57,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37820,7 +37891,7 @@
         "row_index": 25,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37843,7 +37914,7 @@
         "row_index": 33,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37866,7 +37937,7 @@
         "row_index": 19,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37889,7 +37960,7 @@
         "row_index": 40,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37912,7 +37983,7 @@
         "row_index": 52,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37935,7 +38006,7 @@
         "row_index": 75,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37958,7 +38029,7 @@
         "row_index": 1,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37981,7 +38052,7 @@
         "row_index": 71,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38004,7 +38075,7 @@
         "row_index": 86,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38027,7 +38098,7 @@
         "row_index": 20,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38050,7 +38121,7 @@
         "row_index": 31,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -38068,7 +38139,7 @@
         "row_index": 8,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38091,7 +38162,7 @@
         "row_index": 87,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38114,7 +38185,7 @@
         "row_index": 41,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             320,
@@ -38137,7 +38208,7 @@
         "row_index": 11,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38160,7 +38231,7 @@
         "row_index": 4,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38183,7 +38254,7 @@
         "row_index": 7,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38206,7 +38277,7 @@
         "row_index": 46,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38229,7 +38300,7 @@
         "row_index": 73,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38252,7 +38323,7 @@
         "row_index": 22,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38275,7 +38346,7 @@
         "row_index": 61,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38298,7 +38369,7 @@
         "row_index": 45,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38321,7 +38392,7 @@
         "row_index": 35,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38344,7 +38415,7 @@
         "row_index": 72,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38367,7 +38438,7 @@
         "row_index": 6,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38390,7 +38461,7 @@
         "row_index": 47,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38413,7 +38484,7 @@
         "row_index": 38,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38436,7 +38507,7 @@
         "row_index": 88,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38459,7 +38530,7 @@
         "row_index": 13,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38482,7 +38553,7 @@
         "row_index": 83,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38505,7 +38576,7 @@
         "row_index": 49,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38528,7 +38599,7 @@
         "row_index": 53,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38551,7 +38622,7 @@
         "row_index": 63,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38574,7 +38645,7 @@
         "row_index": 42,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38597,7 +38668,7 @@
         "row_index": 24,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38620,7 +38691,7 @@
         "row_index": 21,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38643,7 +38714,7 @@
         "row_index": 59,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38666,7 +38737,7 @@
         "row_index": 89,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -38684,7 +38755,7 @@
         "row_index": 70,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38707,7 +38778,7 @@
         "row_index": 74,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38730,7 +38801,7 @@
         "row_index": 34,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38753,7 +38824,7 @@
         "row_index": 54,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38776,7 +38847,7 @@
         "row_index": 65,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38799,7 +38870,7 @@
         "row_index": 80,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38822,7 +38893,7 @@
         "row_index": 64,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38845,7 +38916,7 @@
         "row_index": 62,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39021,7 +39092,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39185,7 +39256,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39349,7 +39420,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39364,23 +39435,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -39389,13 +39460,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 12,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -39405,23 +39476,23 @@
             "name": "Cable Crossover",
             "sets": [
               {
-                "reps": 19,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 16,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 16,
+                "reps": 15,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 2
               }
@@ -39430,13 +39501,13 @@
             "exerciseId": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
             "progression": {
               "reason": {
-                "at": 64,
+                "at": 86,
                 "top": 20,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -39530,7 +39601,7 @@
             "name": "Single Arm Curl (Cable)",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -39578,14 +39649,14 @@
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -39619,14 +39690,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -39651,7 +39722,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -39815,7 +39886,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39906,14 +39977,14 @@
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 1
               }
@@ -39923,15 +39994,15 @@
             "progression": {
               "reason": {
                 "code": "deloadWeek",
-                "from": 230,
+                "from": 270,
                 "reps": 12,
                 "sets": 2,
                 "unit": "lb",
                 "share": 90,
-                "weight": 205
+                "weight": 240
               },
               "decision": "deload",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -40117,7 +40188,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -40139,14 +40210,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -40214,23 +40285,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -40239,13 +40310,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -40451,7 +40522,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -40466,23 +40537,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -40491,13 +40562,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 12,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -40507,23 +40578,23 @@
             "name": "Cable Crossover",
             "sets": [
               {
-                "reps": 19,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 16,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 16,
+                "reps": 15,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 2
               }
@@ -40532,13 +40603,13 @@
             "exerciseId": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
             "progression": {
               "reason": {
-                "at": 64,
+                "at": 86,
                 "top": 20,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -40632,7 +40703,7 @@
             "name": "Single Arm Curl (Cable)",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -40680,14 +40751,14 @@
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -40721,14 +40792,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -40753,7 +40824,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -40770,14 +40841,14 @@
               {
                 "reps": 10,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 10,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 1
               }
@@ -40787,15 +40858,15 @@
             "progression": {
               "reason": {
                 "code": "deloadWeek",
-                "from": 230,
+                "from": 270,
                 "reps": 10,
                 "sets": 2,
                 "unit": "lb",
                 "share": 90,
-                "weight": 205
+                "weight": 240
               },
               "decision": "deload",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -40807,14 +40878,14 @@
               {
                 "reps": 15,
                 "unit": "lb",
-                "weight": 55,
+                "weight": 75,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 15,
                 "unit": "lb",
-                "weight": 55,
+                "weight": 75,
                 "setType": "normal",
                 "position": 1
               }
@@ -40824,15 +40895,15 @@
             "progression": {
               "reason": {
                 "code": "deloadWeek",
-                "from": 64,
+                "from": 86,
                 "reps": 15,
                 "sets": 2,
                 "unit": "lb",
                 "share": 90,
-                "weight": 55
+                "weight": 75
               },
               "decision": "deload",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -41025,7 +41096,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -41047,14 +41118,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -41122,23 +41193,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -41147,13 +41218,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -41359,7 +41430,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -41374,23 +41445,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -41399,13 +41470,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 12,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -41415,23 +41486,23 @@
             "name": "Cable Crossover",
             "sets": [
               {
-                "reps": 19,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 16,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 16,
+                "reps": 15,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 2
               }
@@ -41440,13 +41511,13 @@
             "exerciseId": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
             "progression": {
               "reason": {
-                "at": 64,
+                "at": 86,
                 "top": 20,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -41540,7 +41611,7 @@
             "name": "Single Arm Curl (Cable)",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -41588,14 +41659,14 @@
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -41629,14 +41700,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -41661,7 +41732,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -41683,14 +41754,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -41758,23 +41829,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -41783,13 +41854,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -41995,7 +42066,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42017,14 +42088,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -42092,23 +42163,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -42117,13 +42188,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -42329,7 +42400,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42351,14 +42422,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -42426,23 +42497,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -42451,13 +42522,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -42663,7 +42734,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42965,7 +43036,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -43214,7 +43285,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -43378,7 +43449,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -43627,7 +43698,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -43876,7 +43947,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -44016,7 +44087,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -44038,14 +44109,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -44113,23 +44184,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -44138,13 +44209,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -44350,7 +44421,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -44514,7 +44585,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -44529,23 +44600,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -44554,13 +44625,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 12,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -44570,23 +44641,23 @@
             "name": "Cable Crossover",
             "sets": [
               {
-                "reps": 19,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 16,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 16,
+                "reps": 15,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 2
               }
@@ -44595,13 +44666,13 @@
             "exerciseId": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
             "progression": {
               "reason": {
-                "at": 64,
+                "at": 86,
                 "top": 20,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -44695,7 +44766,7 @@
             "name": "Single Arm Curl (Cable)",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -44743,14 +44814,14 @@
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -44784,14 +44855,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -44816,7 +44887,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -44838,14 +44909,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -44913,23 +44984,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -44938,13 +45009,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -45150,7 +45221,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -45314,7 +45385,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -45331,14 +45402,14 @@
               {
                 "reps": 10,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 10,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 1
               }
@@ -45348,15 +45419,15 @@
             "progression": {
               "reason": {
                 "code": "deloadWeek",
-                "from": 230,
+                "from": 270,
                 "reps": 10,
                 "sets": 2,
                 "unit": "lb",
                 "share": 90,
-                "weight": 205
+                "weight": 240
               },
               "decision": "deload",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -45368,14 +45439,14 @@
               {
                 "reps": 15,
                 "unit": "lb",
-                "weight": 55,
+                "weight": 75,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 15,
                 "unit": "lb",
-                "weight": 55,
+                "weight": 75,
                 "setType": "normal",
                 "position": 1
               }
@@ -45385,15 +45456,15 @@
             "progression": {
               "reason": {
                 "code": "deloadWeek",
-                "from": 64,
+                "from": 86,
                 "reps": 15,
                 "sets": 2,
                 "unit": "lb",
                 "share": 90,
-                "weight": 55
+                "weight": 75
               },
               "decision": "deload",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -45586,7 +45657,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -45835,7 +45906,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46056,7 +46127,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46305,7 +46376,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46320,23 +46391,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -46345,13 +46416,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 12,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -46361,23 +46432,23 @@
             "name": "Cable Crossover",
             "sets": [
               {
-                "reps": 19,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 16,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 16,
+                "reps": 15,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 2
               }
@@ -46386,13 +46457,13 @@
             "exerciseId": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
             "progression": {
               "reason": {
-                "at": 64,
+                "at": 86,
                 "top": 20,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -46486,7 +46557,7 @@
             "name": "Single Arm Curl (Cable)",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -46534,14 +46605,14 @@
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -46575,14 +46646,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -46607,7 +46678,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -46856,7 +46927,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47105,7 +47176,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47120,23 +47191,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -47145,13 +47216,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 12,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -47161,23 +47232,23 @@
             "name": "Cable Crossover",
             "sets": [
               {
-                "reps": 19,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 16,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 16,
+                "reps": 15,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 2
               }
@@ -47186,13 +47257,13 @@
             "exerciseId": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
             "progression": {
               "reason": {
-                "at": 64,
+                "at": 86,
                 "top": 20,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -47286,7 +47357,7 @@
             "name": "Single Arm Curl (Cable)",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -47334,14 +47405,14 @@
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -47375,14 +47446,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -47407,7 +47478,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -47628,7 +47699,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47643,23 +47714,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -47668,13 +47739,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 12,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 12,
             "repRangeStart": 10,
@@ -47684,23 +47755,23 @@
             "name": "Cable Crossover",
             "sets": [
               {
-                "reps": 19,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 16,
+                "reps": 17,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 16,
+                "reps": 15,
                 "unit": "lb",
-                "weight": 64,
+                "weight": 86,
                 "setType": "normal",
                 "position": 2
               }
@@ -47709,13 +47780,13 @@
             "exerciseId": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
             "progression": {
               "reason": {
-                "at": 64,
+                "at": 86,
                 "top": 20,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 64
+              "fromWeight": 86
             },
             "repRangeEnd": 20,
             "repRangeStart": 15,
@@ -47809,7 +47880,7 @@
             "name": "Single Arm Curl (Cable)",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -47857,14 +47928,14 @@
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -47898,14 +47969,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 12,
+                "reps": 13,
                 "unit": "lb",
                 "weight": 80,
                 "setType": "normal",
@@ -47930,7 +48001,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -47952,14 +48023,14 @@
                 "position": 0
               },
               {
-                "reps": 12,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 11,
+                "reps": 10,
                 "unit": "lb",
                 "weight": 180,
                 "setType": "normal",
@@ -48027,23 +48098,23 @@
             "name": "Leverage Incline Chest Press",
             "sets": [
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 1
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 230,
+                "weight": 270,
                 "setType": "normal",
                 "position": 2
               }
@@ -48052,13 +48123,13 @@
             "exerciseId": "15c8dee3-60f7-4730-ae9e-705746d859c7",
             "progression": {
               "reason": {
-                "at": 230,
+                "at": 270,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -48264,7 +48335,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -48404,7 +48475,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -48495,14 +48566,14 @@
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 205,
+                "weight": 240,
                 "setType": "normal",
                 "position": 1
               }
@@ -48512,15 +48583,15 @@
             "progression": {
               "reason": {
                 "code": "deloadWeek",
-                "from": 230,
+                "from": 270,
                 "reps": 12,
                 "sets": 2,
                 "unit": "lb",
                 "share": 90,
-                "weight": 205
+                "weight": 240
               },
               "decision": "deload",
-              "fromWeight": 230
+              "fromWeight": 270
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -48706,7 +48777,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -48955,7 +49026,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -49119,7 +49190,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-13T07:56:32.052296+00:00",
+        "updated_at": "2026-10-14T07:56:31.971448+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       }
     ],
@@ -58140,6 +58211,16 @@
         "superset_group": null
       },
       {
+        "id": "04d4f0b8-9c77-4fc5-b41d-9002d9e25af9",
+        "notes": null,
+        "position": 4,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "15eeafdb-743c-4943-885b-2a1e3a2ee22c",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "0508ac02-30ee-41a4-826c-0581efa96d7a",
         "notes": null,
         "position": 8,
@@ -59696,6 +59777,16 @@
         "created_at": "2026-10-12T21:14:42.032673+00:00",
         "workout_id": "1998fb91-f7a7-46e0-bd2a-5a21b12f5f3d",
         "exercise_id": "ac63abbf-953f-4a19-b298-a2fe2ac54773",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "21f4637c-09b3-4582-9348-73843cda10c3",
+        "notes": null,
+        "position": 11,
+        "created_at": "2026-10-13T23:20:34.657988+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "46d1ca02-3359-4926-94dd-9ec665ee2083",
         "rest_seconds": null,
         "superset_group": null
       },
@@ -61366,6 +61457,16 @@
         "created_at": "2026-10-12T21:14:42.032673+00:00",
         "workout_id": "8a6680dd-504e-47b0-af26-81ed51856751",
         "exercise_id": "1b3461eb-9e23-46b6-a2f8-ffe07827b314",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "3d011449-d913-44f6-bdcc-37635447c085",
+        "notes": null,
+        "position": 8,
+        "created_at": "2026-10-13T22:50:34.873637+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "a587cac5-cb83-4904-afb2-bb38478c2535",
         "rest_seconds": null,
         "superset_group": null
       },
@@ -64850,6 +64951,16 @@
         "superset_group": null
       },
       {
+        "id": "77eda51f-7e6c-45fb-bfd0-ad2398ad560e",
+        "notes": null,
+        "position": 9,
+        "created_at": "2026-10-13T23:05:37.638077+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "7c7827e7-01b3-452a-8695-18bc02a76214",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "77f18f0a-e862-4888-ae12-b339f641ca46",
         "notes": null,
         "position": 3,
@@ -65307,6 +65418,16 @@
         "workout_id": "04f80c70-f62d-4044-bf19-9a30d3ef7d5a",
         "exercise_id": "16d3b7be-fce3-4e79-95a5-da704306f1a9",
         "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "7eed1c2e-1770-49f6-9ea7-e547d10b1ee1",
+        "notes": null,
+        "position": 0,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "15c8dee3-60f7-4730-ae9e-705746d859c7",
+        "rest_seconds": 150,
         "superset_group": null
       },
       {
@@ -65880,6 +66001,16 @@
         "superset_group": null
       },
       {
+        "id": "893c3750-3f99-4438-aa6a-4c7d6bcb55ed",
+        "notes": null,
+        "position": 6,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "6392c56e-3c6c-45d1-b6da-d6354dc05352",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "897cc9b1-98ee-4068-92d8-7e0caff353fc",
         "notes": null,
         "position": 3,
@@ -66186,6 +66317,16 @@
         "created_at": "2026-10-12T21:14:42.032673+00:00",
         "workout_id": "02d270e8-040b-4f43-b9a7-0d6ecf35c443",
         "exercise_id": "ac63abbf-953f-4a19-b298-a2fe2ac54773",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "8ec8d081-b5d6-4e12-b6ad-1a98c3f3692b",
+        "notes": null,
+        "position": 1,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
         "rest_seconds": null,
         "superset_group": null
       },
@@ -67617,6 +67758,16 @@
         "workout_id": "32ec1cfe-441a-431c-8bba-ecd5fa7e5616",
         "exercise_id": "943a21d4-61b2-4741-8e56-507feb6dbb66",
         "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "abf599af-975e-4d91-81d4-6c65b9a4e61e",
+        "notes": null,
+        "position": 5,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "workout_id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "exercise_id": "d4e3034b-a627-49eb-8a13-822394f8fd98",
+        "rest_seconds": 120,
         "superset_group": null
       },
       {
@@ -80300,6 +80451,22 @@
         "workout_exercise_id": "36514784-b3ee-4a9e-ab39-930550c5d5d4"
       },
       {
+        "id": "1de4a647-1192-4a8e-98f2-7594bd045be4",
+        "rir": null,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 270,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:50:37.872765+00:00",
+        "updated_at": "2026-10-13T23:03:11.948894+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3d011449-d913-44f6-bdcc-37635447c085"
+      },
+      {
         "id": "1de586bc-dfad-4d54-9290-0566504e1924",
         "rir": null,
         "reps": 15,
@@ -84396,6 +84563,22 @@
         "workout_exercise_id": "4b4dcd8e-27d5-4e3e-9adb-9d709f9abe05"
       },
       {
+        "id": "2acf1858-5871-4538-80b3-33688f6182b1",
+        "rir": null,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:36:44.799469+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "04d4f0b8-9c77-4fc5-b41d-9002d9e25af9"
+      },
+      {
         "id": "2aec901b-8637-40f7-b43d-7c6979c0accf",
         "rir": null,
         "reps": 15,
@@ -84522,6 +84705,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "88d1f3b1-905e-4ef3-8fd4-4156cb488096"
+      },
+      {
+        "id": "2b854afc-763a-4104-8883-5caede835efd",
+        "rir": 2,
+        "reps": 11,
+        "unit": "lb",
+        "notes": null,
+        "weight": 180,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T23:05:39.789497+00:00",
+        "updated_at": "2026-10-13T23:05:45.009838+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "77eda51f-7e6c-45fb-bfd0-ad2398ad560e"
       },
       {
         "id": "2b9f68e5-b89a-4feb-8d5a-d450a43ecc26",
@@ -86362,6 +86561,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "72b37d63-252c-4769-9423-b5292ee2c219"
+      },
+      {
+        "id": "31d9ea7b-9fd6-434e-aba1-7c52931ed5dc",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 80,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:27:37.629067+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "abf599af-975e-4d91-81d4-6c65b9a4e61e"
       },
       {
         "id": "31de3b9f-1003-4dc4-a1ee-b1b5d90d8dba",
@@ -90780,6 +90995,22 @@
         "workout_exercise_id": "073b3b9c-15de-476e-9cba-57f59380354f"
       },
       {
+        "id": "4083b757-4626-4dc7-bfb8-84dbfa6916d2",
+        "rir": 1,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": 320,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:50:39.549681+00:00",
+        "updated_at": "2026-10-13T23:12:42.443474+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3d011449-d913-44f6-bdcc-37635447c085"
+      },
+      {
         "id": "408d7d9b-398e-4b73-9b6d-11ebfeea8001",
         "rir": null,
         "reps": 15,
@@ -93756,6 +93987,22 @@
         "workout_exercise_id": "6d85e8a8-456e-47af-82af-e6fcfd786d31"
       },
       {
+        "id": "4ae682b0-33e4-409c-a32c-ec5d6b0d8aef",
+        "rir": null,
+        "reps": 11,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:33:51.937935+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "04d4f0b8-9c77-4fc5-b41d-9002d9e25af9"
+      },
+      {
         "id": "4af6f26d-a781-40d7-8d8f-c89c78bf8f03",
         "rir": null,
         "reps": 12,
@@ -94586,6 +94833,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "360c0edc-f9c4-4c6c-85af-3d08c4d6cbf7"
+      },
+      {
+        "id": "4d7d0f3a-1cc1-428b-9c8a-4ee34a5eb995",
+        "rir": null,
+        "reps": 16,
+        "unit": "lb",
+        "notes": null,
+        "weight": 86,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T22:41:16.800467+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "8ec8d081-b5d6-4e12-b6ad-1a98c3f3692b"
       },
       {
         "id": "4d7f4ef5-74b3-4f03-87c5-d27a94b39384",
@@ -97404,6 +97667,22 @@
         "workout_exercise_id": "05162209-a985-4436-9d80-0458d1664bd0"
       },
       {
+        "id": "57471334-22f9-4967-b200-79f197db8ef4",
+        "rir": 3,
+        "reps": 20,
+        "unit": "lb",
+        "notes": null,
+        "weight": 64,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T22:47:58.780465+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "8ec8d081-b5d6-4e12-b6ad-1a98c3f3692b"
+      },
+      {
         "id": "5783820e-67a6-46e1-84b5-2e0c04665989",
         "rir": null,
         "reps": 10,
@@ -97562,6 +97841,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "46f83d63-29a3-487e-bb45-40e71635bce6"
+      },
+      {
+        "id": "57ea63c7-b089-4708-a209-e922d4710f11",
+        "rir": 1,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": 320,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T23:20:45.634344+00:00",
+        "updated_at": "2026-10-13T23:23:54.878031+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "21f4637c-09b3-4582-9348-73843cda10c3"
       },
       {
         "id": "581847ab-3d29-46d3-a1d5-a4efb869d637",
@@ -108716,6 +109011,22 @@
         "workout_exercise_id": "bf36c626-978d-4cea-aa02-a96b0c83ca7b"
       },
       {
+        "id": "80548496-da99-48dd-a42b-a36810b0586f",
+        "rir": 1,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 2,
+        "set_type": "normal",
+        "completed": false,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:39:44.008213+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "04d4f0b8-9c77-4fc5-b41d-9002d9e25af9"
+      },
+      {
         "id": "80559ad7-0ff2-4f39-b476-ae37d9297d7c",
         "rir": null,
         "reps": 10,
@@ -109802,6 +110113,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "ae26d7ce-9f53-4333-becf-e29840410ead"
+      },
+      {
+        "id": "844770a4-631e-4568-8e6f-34936c46a981",
+        "rir": null,
+        "reps": 15,
+        "unit": "lb",
+        "notes": null,
+        "weight": 80,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:32:26.379065+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "893c3750-3f99-4438-aa6a-4c7d6bcb55ed"
       },
       {
         "id": "845a760a-bc25-44b7-a24c-d38c11d724c0",
@@ -115676,6 +116003,22 @@
         "workout_exercise_id": "4dfc7815-518c-4173-899b-1526cff51acf"
       },
       {
+        "id": "9a3ecc3f-a7b3-4464-b6a4-bede820a38ec",
+        "rir": 1,
+        "reps": 7,
+        "unit": "lb",
+        "notes": null,
+        "weight": 270,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T22:36:27.34299+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "7eed1c2e-1770-49f6-9ea7-e547d10b1ee1"
+      },
+      {
         "id": "9a4e2614-bf78-4652-9773-d50932f9b717",
         "rir": null,
         "reps": 15,
@@ -118956,6 +119299,22 @@
         "workout_exercise_id": "e84617c4-383b-4b65-8958-ff822ea6d0b5"
       },
       {
+        "id": "a5214222-15f9-4fc1-95db-f25b838fffc3",
+        "rir": 0,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 80,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:38:09.931811+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "893c3750-3f99-4438-aa6a-4c7d6bcb55ed"
+      },
+      {
         "id": "a52fbc5f-cc1f-4905-a099-262bf34d6841",
         "rir": null,
         "reps": null,
@@ -120668,6 +121027,22 @@
         "workout_exercise_id": "3b3f3ef3-4839-44c3-946c-76ab4d7ba990"
       },
       {
+        "id": "aa38f9f2-c32e-41f4-9786-8feb71084d8b",
+        "rir": null,
+        "reps": 16,
+        "unit": "lb",
+        "notes": null,
+        "weight": 86,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T22:45:56.020724+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "8ec8d081-b5d6-4e12-b6ad-1a98c3f3692b"
+      },
+      {
         "id": "aa4ad163-fa3e-40e9-92a5-95e202bec8d9",
         "rir": null,
         "reps": 12,
@@ -122108,6 +122483,22 @@
         "workout_exercise_id": "d0b8b448-b799-4688-b64f-920f5a55faa6"
       },
       {
+        "id": "afa00c11-fb71-4217-9ff6-7bfe3e1fe3aa",
+        "rir": null,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": 270,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T22:28:27.192197+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "7eed1c2e-1770-49f6-9ea7-e547d10b1ee1"
+      },
+      {
         "id": "afa3727a-d1a2-4821-838f-8d38cd691929",
         "rir": null,
         "reps": 4,
@@ -122154,6 +122545,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "8a741b11-58bf-4965-8c6a-c2d493e0af4d"
+      },
+      {
+        "id": "afba6e98-918a-42ef-8588-ef2200491782",
+        "rir": 1,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 80,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:30:44.835495+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "abf599af-975e-4d91-81d4-6c65b9a4e61e"
       },
       {
         "id": "afce6edd-e304-483c-90e4-a448979452c7",
@@ -132588,6 +132995,22 @@
         "workout_exercise_id": "2fa7ac26-3958-4f37-8eaf-3d91eb970432"
       },
       {
+        "id": "d49c22b1-9bd8-43be-be6e-e19b0677bfdc",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 290,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:50:38.530276+00:00",
+        "updated_at": "2026-10-13T23:08:11.411514+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3d011449-d913-44f6-bdcc-37635447c085"
+      },
+      {
         "id": "d4c30353-76f8-4100-95ed-829b7eb04fa5",
         "rir": null,
         "reps": 10,
@@ -134666,6 +135089,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "1437f932-acdd-4e7d-970b-7af72ea9b66b"
+      },
+      {
+        "id": "db2380e5-3a80-4cfb-bcc9-7414bf097c12",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 80,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:25:08.785442+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "abf599af-975e-4d91-81d4-6c65b9a4e61e"
       },
       {
         "id": "db346f70-d0a4-4106-a8a5-b4fcf5681569",
@@ -141660,6 +142099,22 @@
         "workout_exercise_id": "0add1722-874c-42ca-bc43-88f23c82ee4e"
       },
       {
+        "id": "f265e36d-0386-4e18-b4a3-cbf60e5e18b9",
+        "rir": null,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": 320,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T23:20:40.052032+00:00",
+        "updated_at": "2026-10-13T23:20:44.752422+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "21f4637c-09b3-4582-9348-73843cda10c3"
+      },
+      {
         "id": "f26d0394-f32b-4276-a8a7-b11f8f3c0271",
         "rir": null,
         "reps": 13,
@@ -141914,6 +142369,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "8f74ea38-7839-4faf-b77c-b68e4671b371"
+      },
+      {
+        "id": "f34580e6-7651-4492-a69c-930c2ee9bdac",
+        "rir": null,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 80,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T23:34:28.68308+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "893c3750-3f99-4438-aa6a-4c7d6bcb55ed"
       },
       {
         "id": "f38c095f-0762-42a1-81ca-29f509977216",
@@ -145452,6 +145923,22 @@
         "workout_exercise_id": "8a53d37e-00cc-40c8-ae5b-71618c01d7c1"
       },
       {
+        "id": "ff08555a-76da-41a3-846d-5fdb8ac5fee1",
+        "rir": null,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": 270,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-13T22:24:09.307976+00:00",
+        "updated_at": "2026-10-13T22:32:58.51718+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "7eed1c2e-1770-49f6-9ea7-e547d10b1ee1"
+      },
+      {
         "id": "ff10fc26-2da8-4bef-979f-7ae44951ba87",
         "rir": null,
         "reps": 8,
@@ -146712,6 +147199,17 @@
         "finished_at": "2026-10-06T00:51:07+00:00",
         "hevy_updated_at": "2026-10-06T00:51:11.614+00:00",
         "hevy_workout_id": "d51da686-f34d-4c27-89cb-dc4850b0a560"
+      },
+      {
+        "id": "7f7479f3-23f4-4cb8-a24a-c6a9eebbfd98",
+        "name": "Upper A",
+        "notes": null,
+        "created_at": "2026-10-13T22:24:08.952002+00:00",
+        "started_at": "2026-10-13T22:24:07.632+00:00",
+        "updated_at": "2026-10-13T23:39:44.857276+00:00",
+        "finished_at": "2026-10-13T23:39:44.716+00:00",
+        "hevy_updated_at": null,
+        "hevy_workout_id": null
       },
       {
         "id": "81324174-00f5-4416-9a4a-39aa0d238a7c",
