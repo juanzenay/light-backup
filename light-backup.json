@@ -1,7 +1,7 @@
 {
   "format": "light-export",
   "version": 1,
-  "exportedAt": "2026-10-15T10:11:18.372Z",
+  "exportedAt": "2026-10-16T10:11:18.343Z",
   "tables": {
     "activities": [
       {
@@ -40,6 +40,14 @@
         "target": "github",
         "location": "https://github.com/juanzenay/light-backup/blob/main/light-backup.json",
         "created_at": "2026-10-14T10:11:18.157572+00:00"
+      },
+      {
+        "id": "6fc31252-f1d6-4602-a693-9254118a7f9f",
+        "error": null,
+        "status": "succeeded",
+        "target": "github",
+        "location": "https://github.com/juanzenay/light-backup/blob/main/light-backup.json",
+        "created_at": "2026-10-15T10:11:18.356987+00:00"
       },
       {
         "id": "97c15fe8-88a7-40cf-9e12-11bc7acb6e26",
@@ -34935,6 +34943,18 @@
         "created_at": "2026-10-13T00:59:37.086505+00:00"
       },
       {
+        "id": "99c65001-7569-4c98-8b13-a1699f6cbc7f",
+        "url": "/export",
+        "body": null,
+        "kind": "backup_succeeded",
+        "level": "minor",
+        "title": {
+          "code": "backupSucceeded",
+          "target": "github"
+        },
+        "created_at": "2026-10-15T10:11:18.356987+00:00"
+      },
+      {
         "id": "a700ea78-5592-409b-8058-039dd44e9faa",
         "url": "/plan-changes/3bc9fdca-50ca-4b5b-a567-71d240c1b5cb",
         "body": [
@@ -37281,7 +37301,7 @@
         "row_index": 81,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -37304,7 +37324,7 @@
         "row_index": 55,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37327,7 +37347,7 @@
         "row_index": 14,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37350,7 +37370,7 @@
         "row_index": 51,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -37373,7 +37393,7 @@
         "row_index": 76,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37396,7 +37416,7 @@
         "row_index": 77,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37419,7 +37439,7 @@
         "row_index": 17,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37442,7 +37462,7 @@
         "row_index": 18,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37465,7 +37485,7 @@
         "row_index": 16,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -37483,7 +37503,7 @@
         "row_index": 60,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37506,7 +37526,7 @@
         "row_index": 67,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37529,7 +37549,7 @@
         "row_index": 36,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37552,7 +37572,7 @@
         "row_index": 68,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37575,7 +37595,7 @@
         "row_index": 58,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37598,7 +37618,7 @@
         "row_index": 48,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37621,7 +37641,7 @@
         "row_index": 2,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37644,7 +37664,7 @@
         "row_index": 85,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37667,7 +37687,7 @@
         "row_index": 27,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37690,7 +37710,7 @@
         "row_index": 9,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37713,7 +37733,7 @@
         "row_index": 37,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37736,7 +37756,7 @@
         "row_index": 39,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37759,7 +37779,7 @@
         "row_index": 3,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37782,7 +37802,7 @@
         "row_index": 56,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37805,7 +37825,7 @@
         "row_index": 44,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -37823,7 +37843,7 @@
         "row_index": 78,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37846,7 +37866,7 @@
         "row_index": 32,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37869,7 +37889,7 @@
         "row_index": 84,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37892,7 +37912,7 @@
         "row_index": 50,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37915,7 +37935,7 @@
         "row_index": 12,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37938,7 +37958,7 @@
         "row_index": 0,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37961,7 +37981,7 @@
         "row_index": 43,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37984,7 +38004,7 @@
         "row_index": 5,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38007,7 +38027,7 @@
         "row_index": 79,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38030,7 +38050,7 @@
         "row_index": 23,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38053,7 +38073,7 @@
         "row_index": 82,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38076,7 +38096,7 @@
         "row_index": 28,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38099,7 +38119,7 @@
         "row_index": 26,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38122,7 +38142,7 @@
         "row_index": 15,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38145,7 +38165,7 @@
         "row_index": 10,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38168,7 +38188,7 @@
         "row_index": 69,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38191,7 +38211,7 @@
         "row_index": 30,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38214,7 +38234,7 @@
         "row_index": 66,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38237,7 +38257,7 @@
         "row_index": 29,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38260,7 +38280,7 @@
         "row_index": 57,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38283,7 +38303,7 @@
         "row_index": 25,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38306,7 +38326,7 @@
         "row_index": 33,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38329,7 +38349,7 @@
         "row_index": 19,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38352,7 +38372,7 @@
         "row_index": 40,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38375,7 +38395,7 @@
         "row_index": 52,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38398,7 +38418,7 @@
         "row_index": 75,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38421,7 +38441,7 @@
         "row_index": 1,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38444,7 +38464,7 @@
         "row_index": 71,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38467,7 +38487,7 @@
         "row_index": 86,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38490,7 +38510,7 @@
         "row_index": 20,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38513,7 +38533,7 @@
         "row_index": 31,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -38531,7 +38551,7 @@
         "row_index": 8,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38554,7 +38574,7 @@
         "row_index": 87,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38577,7 +38597,7 @@
         "row_index": 41,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             320,
@@ -38600,7 +38620,7 @@
         "row_index": 11,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38623,7 +38643,7 @@
         "row_index": 4,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38646,7 +38666,7 @@
         "row_index": 7,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38669,7 +38689,7 @@
         "row_index": 46,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38692,7 +38712,7 @@
         "row_index": 73,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38715,7 +38735,7 @@
         "row_index": 22,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38738,7 +38758,7 @@
         "row_index": 61,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38761,7 +38781,7 @@
         "row_index": 45,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38784,7 +38804,7 @@
         "row_index": 35,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38807,7 +38827,7 @@
         "row_index": 72,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38830,7 +38850,7 @@
         "row_index": 6,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38853,7 +38873,7 @@
         "row_index": 47,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38876,7 +38896,7 @@
         "row_index": 38,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38899,7 +38919,7 @@
         "row_index": 88,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38922,7 +38942,7 @@
         "row_index": 13,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38945,7 +38965,7 @@
         "row_index": 83,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38968,7 +38988,7 @@
         "row_index": 49,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38991,7 +39011,7 @@
         "row_index": 53,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -39014,7 +39034,7 @@
         "row_index": 63,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -39037,7 +39057,7 @@
         "row_index": 42,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39060,7 +39080,7 @@
         "row_index": 24,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39083,7 +39103,7 @@
         "row_index": 21,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -39106,7 +39126,7 @@
         "row_index": 59,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39129,7 +39149,7 @@
         "row_index": 89,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -39147,7 +39167,7 @@
         "row_index": 70,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39170,7 +39190,7 @@
         "row_index": 74,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39193,7 +39213,7 @@
         "row_index": 34,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39216,7 +39236,7 @@
         "row_index": 54,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39239,7 +39259,7 @@
         "row_index": 65,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39262,7 +39282,7 @@
         "row_index": 80,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39285,7 +39305,7 @@
         "row_index": 64,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39308,7 +39328,7 @@
         "row_index": 62,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39484,7 +39504,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39648,7 +39668,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39812,7 +39832,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -40114,7 +40134,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -40278,7 +40298,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -40580,7 +40600,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -40914,7 +40934,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -41216,7 +41236,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -41488,7 +41508,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -41822,7 +41842,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42124,7 +42144,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -42458,7 +42478,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42792,7 +42812,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -43126,7 +43146,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -43428,7 +43448,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -43677,7 +43697,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -43841,171 +43861,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
-        "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
-      },
-      {
-        "id": "596ae52b-8b16-4c46-b849-02152aaf988c",
-        "date": "2026-10-15",
-        "name": "Lower B (after the run)",
-        "week": 1,
-        "deload": false,
-        "block_id": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
-        "exercises": [
-          {
-            "name": "Single Leg Press (Machine)",
-            "sets": [
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 275,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 275,
-                "setType": "normal",
-                "position": 1
-              }
-            ],
-            "position": 0,
-            "exerciseId": "b320418e-cb7f-47c6-9aca-ca36642d1064",
-            "progression": {
-              "reason": {
-                "at": 270,
-                "top": 10,
-                "code": "progressionHitTop",
-                "next": 275,
-                "sets": 2,
-                "unit": "lb"
-              },
-              "decision": "increase",
-              "fromWeight": 270
-            },
-            "repRangeEnd": 10,
-            "repRangeStart": 8,
-            "blockExerciseId": "aa404ca3-68bf-44e3-9f42-827cdb3eca2a"
-          },
-          {
-            "name": "Hip Thrust (Machine)",
-            "sets": [
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 185,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 185,
-                "setType": "normal",
-                "position": 1
-              }
-            ],
-            "position": 1,
-            "exerciseId": "b918c981-83fc-4530-89fd-3ad4efb70d8a",
-            "progression": {
-              "reason": {
-                "at": 180,
-                "top": 10,
-                "code": "progressionHitTop",
-                "next": 185,
-                "sets": 2,
-                "unit": "lb"
-              },
-              "decision": "increase",
-              "fromWeight": 180
-            },
-            "repRangeEnd": 10,
-            "repRangeStart": 8,
-            "blockExerciseId": "c4b57e47-a79b-433f-8061-e842969d44d1"
-          },
-          {
-            "name": "Seated Leg Curl",
-            "sets": [
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 135,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 135,
-                "setType": "normal",
-                "position": 1
-              }
-            ],
-            "position": 2,
-            "exerciseId": "3bf49c6f-9b4e-4170-96ed-3ad4e275d5ee",
-            "progression": {
-              "reason": {
-                "at": 130,
-                "top": 12,
-                "code": "progressionHitTop",
-                "next": 135,
-                "sets": 3,
-                "unit": "lb"
-              },
-              "decision": "increase",
-              "fromWeight": 130
-            },
-            "repRangeEnd": 12,
-            "repRangeStart": 8,
-            "blockExerciseId": "ddb8215c-ffad-428f-bdb2-994d99cb39ab"
-          },
-          {
-            "name": "Standing Calf Raises",
-            "sets": [
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 370,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 370,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 8,
-                "unit": "lb",
-                "weight": 370,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 3,
-            "exerciseId": "ac06304f-48e5-4087-8b26-7c559b7216c6",
-            "progression": {
-              "reason": {
-                "at": 360,
-                "top": 12,
-                "code": "progressionHitTop",
-                "next": 370,
-                "sets": 3,
-                "unit": "lb"
-              },
-              "decision": "increase",
-              "fromWeight": 360
-            },
-            "repRangeEnd": 12,
-            "repRangeStart": 8,
-            "blockExerciseId": "98d4e594-e51a-47ba-b9a7-b715981b6fb8"
-          }
-        ],
-        "created_at": "2026-10-15T07:56:32.401641+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -44254,7 +44110,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -44503,7 +44359,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -44643,7 +44499,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -44977,7 +44833,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -45279,7 +45135,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -45613,7 +45469,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -45777,7 +45633,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -46049,7 +45905,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -46298,7 +46154,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46519,7 +46375,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46768,7 +46624,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47070,7 +46926,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -47319,7 +47175,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47568,7 +47424,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47870,7 +47726,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -48091,7 +47947,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -48393,8 +48249,172 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
+      },
+      {
+        "id": "dd598bb3-9948-42d0-a568-633d95926c6a",
+        "date": "2026-10-14",
+        "name": "Lower B (after the run)",
+        "week": 1,
+        "deload": false,
+        "block_id": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+        "exercises": [
+          {
+            "name": "Single Leg Press (Machine)",
+            "sets": [
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 275,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 275,
+                "setType": "normal",
+                "position": 1
+              }
+            ],
+            "position": 0,
+            "exerciseId": "b320418e-cb7f-47c6-9aca-ca36642d1064",
+            "progression": {
+              "reason": {
+                "at": 270,
+                "top": 10,
+                "code": "progressionHitTop",
+                "next": 275,
+                "sets": 2,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 270
+            },
+            "repRangeEnd": 10,
+            "repRangeStart": 8,
+            "blockExerciseId": "aa404ca3-68bf-44e3-9f42-827cdb3eca2a"
+          },
+          {
+            "name": "Hip Thrust (Machine)",
+            "sets": [
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 185,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 185,
+                "setType": "normal",
+                "position": 1
+              }
+            ],
+            "position": 1,
+            "exerciseId": "b918c981-83fc-4530-89fd-3ad4efb70d8a",
+            "progression": {
+              "reason": {
+                "at": 180,
+                "top": 10,
+                "code": "progressionHitTop",
+                "next": 185,
+                "sets": 2,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 180
+            },
+            "repRangeEnd": 10,
+            "repRangeStart": 8,
+            "blockExerciseId": "c4b57e47-a79b-433f-8061-e842969d44d1"
+          },
+          {
+            "name": "Seated Leg Curl",
+            "sets": [
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 135,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 135,
+                "setType": "normal",
+                "position": 1
+              }
+            ],
+            "position": 2,
+            "exerciseId": "3bf49c6f-9b4e-4170-96ed-3ad4e275d5ee",
+            "progression": {
+              "reason": {
+                "at": 130,
+                "top": 12,
+                "code": "progressionHitTop",
+                "next": 135,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 130
+            },
+            "repRangeEnd": 12,
+            "repRangeStart": 8,
+            "blockExerciseId": "ddb8215c-ffad-428f-bdb2-994d99cb39ab"
+          },
+          {
+            "name": "Standing Calf Raises",
+            "sets": [
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 370,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 370,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 8,
+                "unit": "lb",
+                "weight": 370,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
+            "position": 3,
+            "exerciseId": "ac06304f-48e5-4087-8b26-7c559b7216c6",
+            "progression": {
+              "reason": {
+                "at": 360,
+                "top": 12,
+                "code": "progressionHitTop",
+                "next": 370,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 360
+            },
+            "repRangeEnd": 12,
+            "repRangeStart": 8,
+            "blockExerciseId": "98d4e594-e51a-47ba-b9a7-b715981b6fb8"
+          }
+        ],
+        "created_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
         "id": "e931b8fa-dc7e-47c2-8fbf-8c005be4eaf3",
@@ -48727,7 +48747,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -48867,7 +48887,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -49169,7 +49189,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -49418,7 +49438,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -49582,7 +49602,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-15T07:56:32.401641+00:00",
+        "updated_at": "2026-10-16T07:56:32.51916+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       }
     ],
