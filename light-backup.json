@@ -1,7 +1,7 @@
 {
   "format": "light-export",
   "version": 1,
-  "exportedAt": "2026-10-16T10:11:18.343Z",
+  "exportedAt": "2026-10-17T10:11:18.495Z",
   "tables": {
     "activities": [
       {
@@ -23,13 +23,33 @@
         "distance_meters": 8068.2,
         "elapsed_seconds": 2832,
         "start_date_local": "2026-10-13T19:27:17"
+      },
+      {
+        "id": "e81397ea-6560-4876-92b6-480cf5d49fed",
+        "raw": null,
+        "name": null,
+        "manual": false,
+        "source": "file",
+        "file_name": "TheWoodlandsRun20261014191955.fit",
+        "strava_id": null,
+        "created_at": "2026-10-16T17:59:37.710929+00:00",
+        "fetched_at": "2026-10-16T17:59:37.710929+00:00",
+        "local_date": "2026-10-14",
+        "sport_type": "Run",
+        "start_date": "2026-10-15T00:19:55+00:00",
+        "device_name": null,
+        "moving_seconds": 3259,
+        "planned_run_id": "92f03c93-c6b7-4772-bfc5-b6a574dbf1a6",
+        "distance_meters": 9286,
+        "elapsed_seconds": 3259,
+        "start_date_local": "2026-10-14T19:19:55"
       }
     ],
     "activity_import_coverage": [
       {
         "id": true,
-        "updated_at": "2026-10-14T01:17:41.886571+00:00",
-        "covered_through": "2026-10-13"
+        "updated_at": "2026-10-16T17:59:37.710929+00:00",
+        "covered_through": "2026-10-14"
       }
     ],
     "backup_runs": [
@@ -56,6 +76,14 @@
         "target": "github",
         "location": "https://github.com/juanzenay/light-backup/blob/main/light-backup.json",
         "created_at": "2026-10-13T10:11:18.159131+00:00"
+      },
+      {
+        "id": "a866d086-463b-4431-858a-e00f48f213fb",
+        "error": null,
+        "status": "succeeded",
+        "target": "github",
+        "location": "https://github.com/juanzenay/light-backup/blob/main/light-backup.json",
+        "created_at": "2026-10-16T10:11:18.330228+00:00"
       }
     ],
     "block_exercises": [
@@ -34943,6 +34971,30 @@
         "created_at": "2026-10-13T00:59:37.086505+00:00"
       },
       {
+        "id": "7cf98f2c-1d58-408e-adfe-dc3860f7f6cd",
+        "url": "/plan-changes/e6482a17-1e40-4d96-adde-783cf0a65740",
+        "body": [
+          {
+            "at": 125,
+            "top": 15,
+            "code": "progressionHitTop",
+            "next": 130,
+            "sets": 3,
+            "unit": "lb"
+          }
+        ],
+        "kind": "plan_change_applied",
+        "level": "minor",
+        "title": {
+          "code": "progressionChange",
+          "unit": "lb",
+          "weight": 130,
+          "decision": "increase",
+          "exercise": "Rear Delt Reverse Fly (Machine)"
+        },
+        "created_at": "2026-10-17T00:59:49.583611+00:00"
+      },
+      {
         "id": "99c65001-7569-4c98-8b13-a1699f6cbc7f",
         "url": "/export",
         "body": null,
@@ -34997,6 +35049,18 @@
           "exercise": "Split Squat with Dumbbells"
         },
         "created_at": "2026-10-13T00:59:37.086505+00:00"
+      },
+      {
+        "id": "e6e845f6-0c2e-4a5b-a781-f08227a1dfb0",
+        "url": "/export",
+        "body": null,
+        "kind": "backup_succeeded",
+        "level": "minor",
+        "title": {
+          "code": "backupSucceeded",
+          "target": "github"
+        },
+        "created_at": "2026-10-16T10:11:18.330228+00:00"
       }
     ],
     "owner": [
@@ -37288,6 +37352,680 @@
         "parent_id": null,
         "created_at": "2026-10-13T00:59:37.086505+00:00",
         "updated_at": "2026-10-13T00:59:37.086505+00:00"
+      },
+      {
+        "id": "e6482a17-1e40-4d96-adde-783cf0a65740",
+        "key": "progression:54a2857f-65c9-4fd2-9b18-6029558050f6:2026-10-16:130",
+        "diff": [
+          {
+            "date": "2026-10-23",
+            "type": "exercise",
+            "after": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionHitTop",
+                  "next": 130,
+                  "sets": 3,
+                  "unit": "lb"
+                },
+                "decision": "increase",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "before": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionNotYet",
+                  "unit": "lb"
+                },
+                "decision": "hold",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "blockId": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+            "sessionName": "Upper B",
+            "blockSessionId": "d3520680-c247-4fa7-a78a-37c90d5fedcd",
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "date": "2026-10-30",
+            "type": "exercise",
+            "after": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionHitTop",
+                  "next": 130,
+                  "sets": 3,
+                  "unit": "lb"
+                },
+                "decision": "increase",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "before": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionNotYet",
+                  "unit": "lb"
+                },
+                "decision": "hold",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "blockId": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+            "sessionName": "Upper B",
+            "blockSessionId": "d3520680-c247-4fa7-a78a-37c90d5fedcd",
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "date": "2026-11-06",
+            "type": "exercise",
+            "after": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionHitTop",
+                  "next": 130,
+                  "sets": 3,
+                  "unit": "lb"
+                },
+                "decision": "increase",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "before": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionNotYet",
+                  "unit": "lb"
+                },
+                "decision": "hold",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "blockId": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+            "sessionName": "Upper B",
+            "blockSessionId": "d3520680-c247-4fa7-a78a-37c90d5fedcd",
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "date": "2026-11-13",
+            "type": "exercise",
+            "after": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionHitTop",
+                  "next": 130,
+                  "sets": 3,
+                  "unit": "lb"
+                },
+                "decision": "increase",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "before": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionNotYet",
+                  "unit": "lb"
+                },
+                "decision": "hold",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "blockId": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+            "sessionName": "Upper B",
+            "blockSessionId": "d3520680-c247-4fa7-a78a-37c90d5fedcd",
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "date": "2026-11-20",
+            "type": "exercise",
+            "after": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionHitTop",
+                  "next": 130,
+                  "sets": 3,
+                  "unit": "lb"
+                },
+                "decision": "increase",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "before": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionNotYet",
+                  "unit": "lb"
+                },
+                "decision": "hold",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "blockId": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+            "sessionName": "Upper B",
+            "blockSessionId": "d3520680-c247-4fa7-a78a-37c90d5fedcd",
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "date": "2026-12-04",
+            "type": "exercise",
+            "after": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionHitTop",
+                  "next": 130,
+                  "sets": 3,
+                  "unit": "lb"
+                },
+                "decision": "increase",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "before": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionNotYet",
+                  "unit": "lb"
+                },
+                "decision": "hold",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "blockId": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+            "sessionName": "Upper B",
+            "blockSessionId": "d3520680-c247-4fa7-a78a-37c90d5fedcd",
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "date": "2026-12-11",
+            "type": "exercise",
+            "after": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 12,
+                  "unit": "lb",
+                  "weight": 130,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionHitTop",
+                  "next": 130,
+                  "sets": 3,
+                  "unit": "lb"
+                },
+                "decision": "increase",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "before": {
+              "name": "Rear Delt Reverse Fly (Machine)",
+              "sets": [
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 0
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 1
+                },
+                {
+                  "reps": 15,
+                  "unit": "lb",
+                  "weight": 125,
+                  "setType": "normal",
+                  "position": 2
+                }
+              ],
+              "position": 4,
+              "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+              "progression": {
+                "reason": {
+                  "at": 125,
+                  "top": 15,
+                  "code": "progressionNotYet",
+                  "unit": "lb"
+                },
+                "decision": "hold",
+                "fromWeight": 125
+              },
+              "repRangeEnd": 15,
+              "repRangeStart": 12,
+              "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+            },
+            "blockId": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+            "sessionName": "Upper B",
+            "blockSessionId": "d3520680-c247-4fa7-a78a-37c90d5fedcd",
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          }
+        ],
+        "coach": null,
+        "source": "engine",
+        "status": "applied",
+        "reasons": [
+          {
+            "at": 125,
+            "top": 15,
+            "code": "progressionHitTop",
+            "next": 130,
+            "sets": 3,
+            "unit": "lb"
+          }
+        ],
+        "summary": {
+          "code": "progressionChange",
+          "unit": "lb",
+          "weight": 130,
+          "decision": "increase",
+          "exercise": "Rear Delt Reverse Fly (Machine)"
+        },
+        "block_id": "244e5396-cd87-4e93-9f9f-00ed32f6f3ab",
+        "parent_id": null,
+        "created_at": "2026-10-17T00:59:49.583611+00:00",
+        "updated_at": "2026-10-17T00:59:49.583611+00:00"
       }
     ],
     "planned_runs": [
@@ -37301,7 +38039,7 @@
         "row_index": 81,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -37324,7 +38062,7 @@
         "row_index": 55,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37347,7 +38085,7 @@
         "row_index": 14,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37370,7 +38108,7 @@
         "row_index": 51,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -37393,7 +38131,7 @@
         "row_index": 76,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37416,7 +38154,7 @@
         "row_index": 77,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37439,7 +38177,7 @@
         "row_index": 17,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37462,7 +38200,7 @@
         "row_index": 18,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37485,7 +38223,7 @@
         "row_index": 16,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -37503,7 +38241,7 @@
         "row_index": 60,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37526,7 +38264,7 @@
         "row_index": 67,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37549,7 +38287,7 @@
         "row_index": 36,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37572,7 +38310,7 @@
         "row_index": 68,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37595,7 +38333,7 @@
         "row_index": 58,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37618,7 +38356,7 @@
         "row_index": 48,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37641,7 +38379,7 @@
         "row_index": 2,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37664,7 +38402,7 @@
         "row_index": 85,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37687,7 +38425,7 @@
         "row_index": 27,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37710,7 +38448,7 @@
         "row_index": 9,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37733,7 +38471,7 @@
         "row_index": 37,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37756,7 +38494,7 @@
         "row_index": 39,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37779,7 +38517,7 @@
         "row_index": 3,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37802,7 +38540,7 @@
         "row_index": 56,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -37825,7 +38563,7 @@
         "row_index": 44,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -37843,7 +38581,7 @@
         "row_index": 78,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -37866,7 +38604,7 @@
         "row_index": 32,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37889,7 +38627,7 @@
         "row_index": 84,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -37912,7 +38650,7 @@
         "row_index": 50,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37935,7 +38673,7 @@
         "row_index": 12,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37958,7 +38696,7 @@
         "row_index": 0,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -37981,7 +38719,7 @@
         "row_index": 43,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38004,7 +38742,7 @@
         "row_index": 5,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38027,7 +38765,7 @@
         "row_index": 79,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38050,7 +38788,7 @@
         "row_index": 23,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38073,7 +38811,7 @@
         "row_index": 82,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38096,7 +38834,7 @@
         "row_index": 28,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38119,7 +38857,7 @@
         "row_index": 26,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38142,7 +38880,7 @@
         "row_index": 15,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38165,7 +38903,7 @@
         "row_index": 10,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38188,7 +38926,7 @@
         "row_index": 69,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38211,7 +38949,7 @@
         "row_index": 30,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38234,7 +38972,7 @@
         "row_index": 66,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38257,7 +38995,7 @@
         "row_index": 29,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38280,7 +39018,7 @@
         "row_index": 57,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38303,7 +39041,7 @@
         "row_index": 25,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38326,7 +39064,7 @@
         "row_index": 33,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38349,7 +39087,7 @@
         "row_index": 19,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38372,7 +39110,7 @@
         "row_index": 40,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38395,7 +39133,7 @@
         "row_index": 52,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38418,7 +39156,7 @@
         "row_index": 75,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38437,11 +39175,11 @@
         "type": "tempo",
         "week": 1,
         "notes": "2 mi WU; 3 x 1 mi @ T w/ 1 min jog; CD. Pace is for reps",
-        "status": null,
+        "status": "partial",
         "row_index": 1,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38449,8 +39187,8 @@
           ]
         },
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
-        "actual_meters": null,
-        "actual_seconds": null,
+        "actual_meters": 9286,
+        "actual_seconds": 3259,
         "distance_meters": 11265,
         "duration_seconds": null
       },
@@ -38464,7 +39202,7 @@
         "row_index": 71,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38487,7 +39225,7 @@
         "row_index": 86,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38510,7 +39248,7 @@
         "row_index": 20,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38533,7 +39271,7 @@
         "row_index": 31,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -38551,7 +39289,7 @@
         "row_index": 8,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38574,7 +39312,7 @@
         "row_index": 87,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38597,7 +39335,7 @@
         "row_index": 41,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             320,
@@ -38620,7 +39358,7 @@
         "row_index": 11,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38643,7 +39381,7 @@
         "row_index": 4,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38666,7 +39404,7 @@
         "row_index": 7,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38689,7 +39427,7 @@
         "row_index": 46,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38712,7 +39450,7 @@
         "row_index": 73,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38735,7 +39473,7 @@
         "row_index": 22,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38758,7 +39496,7 @@
         "row_index": 61,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             338.6,
@@ -38781,7 +39519,7 @@
         "row_index": 45,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38804,7 +39542,7 @@
         "row_index": 35,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38827,7 +39565,7 @@
         "row_index": 72,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38850,7 +39588,7 @@
         "row_index": 6,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -38873,7 +39611,7 @@
         "row_index": 47,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -38896,7 +39634,7 @@
         "row_index": 38,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38919,7 +39657,7 @@
         "row_index": 88,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -38942,7 +39680,7 @@
         "row_index": 13,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38965,7 +39703,7 @@
         "row_index": 83,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -38988,7 +39726,7 @@
         "row_index": 49,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39011,7 +39749,7 @@
         "row_index": 53,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -39034,7 +39772,7 @@
         "row_index": 63,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             366.6,
@@ -39057,7 +39795,7 @@
         "row_index": 42,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39080,7 +39818,7 @@
         "row_index": 24,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39103,7 +39841,7 @@
         "row_index": 21,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             301.4,
@@ -39126,7 +39864,7 @@
         "row_index": 59,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39149,7 +39887,7 @@
         "row_index": 89,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": null,
         "run_plan_id": "31aceb31-07f1-4ed5-a2fc-edc3292bff57",
         "actual_meters": null,
@@ -39167,7 +39905,7 @@
         "row_index": 70,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39190,7 +39928,7 @@
         "row_index": 74,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39213,7 +39951,7 @@
         "row_index": 34,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39236,7 +39974,7 @@
         "row_index": 54,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39259,7 +39997,7 @@
         "row_index": 65,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39282,7 +40020,7 @@
         "row_index": 80,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39305,7 +40043,7 @@
         "row_index": 64,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             372.8,
@@ -39328,7 +40066,7 @@
         "row_index": 62,
         "structure": null,
         "created_at": "2026-10-12T22:24:29.624324+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "pace_target": {
           "perKmSeconds": [
             363.5,
@@ -39504,7 +40242,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39668,7 +40406,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -39832,7 +40570,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -40134,7 +40872,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -40298,7 +41036,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -40456,57 +41194,20 @@
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 110,
+                "weight": 115,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 110,
+                "weight": 115,
                 "setType": "normal",
                 "position": 1
               }
             ],
             "position": 4,
             "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "code": "deloadWeek",
-                "from": 125,
-                "reps": 12,
-                "sets": 2,
-                "unit": "lb",
-                "share": 90,
-                "weight": 110
-              },
-              "decision": "deload",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 12,
-                "unit": "lb",
-                "weight": 115,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 12,
-                "unit": "lb",
-                "weight": 115,
-                "setType": "normal",
-                "position": 1
-              }
-            ],
-            "position": 5,
-            "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
                 "code": "deloadWeek",
@@ -40519,6 +41220,43 @@
               },
               "decision": "deload",
               "fromWeight": 130
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 125,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 125,
+                "setType": "normal",
+                "position": 1
+              }
+            ],
+            "position": 5,
+            "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
+            "progression": {
+              "reason": {
+                "code": "deloadWeek",
+                "from": 140,
+                "reps": 12,
+                "sets": 2,
+                "unit": "lb",
+                "share": 90,
+                "weight": 125
+              },
+              "decision": "deload",
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -40600,7 +41338,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -40934,7 +41672,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -41236,7 +41974,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -41508,7 +42246,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -41680,55 +42418,14 @@
             "name": "Rear Delt Reverse Fly (Machine)",
             "sets": [
               {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 4,
-            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "at": 125,
-                "top": 15,
-                "code": "progressionNotYet",
-                "unit": "lb"
-              },
-              "decision": "hold",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
@@ -41742,17 +42439,60 @@
                 "position": 2
               }
             ],
+            "position": 4,
+            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+            "progression": {
+              "reason": {
+                "at": 125,
+                "top": 15,
+                "code": "progressionHitTop",
+                "next": 130,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 125
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
             "position": 5,
             "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
-                "at": 130,
+                "at": 140,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 130
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -41762,21 +42502,21 @@
             "name": "Cable Rope Overhead Triceps Extension",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -41842,7 +42582,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42144,7 +42884,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -42316,55 +43056,14 @@
             "name": "Rear Delt Reverse Fly (Machine)",
             "sets": [
               {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 4,
-            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "at": 125,
-                "top": 15,
-                "code": "progressionNotYet",
-                "unit": "lb"
-              },
-              "decision": "hold",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
@@ -42378,17 +43077,60 @@
                 "position": 2
               }
             ],
+            "position": 4,
+            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+            "progression": {
+              "reason": {
+                "at": 125,
+                "top": 15,
+                "code": "progressionHitTop",
+                "next": 130,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 125
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
             "position": 5,
             "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
-                "at": 130,
+                "at": 140,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 130
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -42398,21 +43140,21 @@
             "name": "Cable Rope Overhead Triceps Extension",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -42478,7 +43220,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42650,55 +43392,14 @@
             "name": "Rear Delt Reverse Fly (Machine)",
             "sets": [
               {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 4,
-            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "at": 125,
-                "top": 15,
-                "code": "progressionNotYet",
-                "unit": "lb"
-              },
-              "decision": "hold",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
@@ -42712,17 +43413,60 @@
                 "position": 2
               }
             ],
+            "position": 4,
+            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+            "progression": {
+              "reason": {
+                "at": 125,
+                "top": 15,
+                "code": "progressionHitTop",
+                "next": 130,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 125
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
             "position": 5,
             "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
-                "at": 130,
+                "at": 140,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 130
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -42732,21 +43476,21 @@
             "name": "Cable Rope Overhead Triceps Extension",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -42812,7 +43556,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -42984,55 +43728,14 @@
             "name": "Rear Delt Reverse Fly (Machine)",
             "sets": [
               {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 4,
-            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "at": 125,
-                "top": 15,
-                "code": "progressionNotYet",
-                "unit": "lb"
-              },
-              "decision": "hold",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
@@ -43046,17 +43749,60 @@
                 "position": 2
               }
             ],
+            "position": 4,
+            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+            "progression": {
+              "reason": {
+                "at": 125,
+                "top": 15,
+                "code": "progressionHitTop",
+                "next": 130,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 125
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
             "position": 5,
             "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
-                "at": 130,
+                "at": 140,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 130
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -43066,21 +43812,21 @@
             "name": "Cable Rope Overhead Triceps Extension",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -43146,7 +43892,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -43448,7 +44194,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -43697,7 +44443,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -43861,7 +44607,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -44110,7 +44856,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -44359,7 +45105,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -44499,7 +45245,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -44671,55 +45417,14 @@
             "name": "Rear Delt Reverse Fly (Machine)",
             "sets": [
               {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 4,
-            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "at": 125,
-                "top": 15,
-                "code": "progressionNotYet",
-                "unit": "lb"
-              },
-              "decision": "hold",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
@@ -44733,17 +45438,60 @@
                 "position": 2
               }
             ],
+            "position": 4,
+            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+            "progression": {
+              "reason": {
+                "at": 125,
+                "top": 15,
+                "code": "progressionHitTop",
+                "next": 130,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 125
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
             "position": 5,
             "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
-                "at": 130,
+                "at": 140,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 130
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -44753,21 +45501,21 @@
             "name": "Cable Rope Overhead Triceps Extension",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -44833,7 +45581,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -45135,7 +45883,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -45307,55 +46055,14 @@
             "name": "Rear Delt Reverse Fly (Machine)",
             "sets": [
               {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 4,
-            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "at": 125,
-                "top": 15,
-                "code": "progressionNotYet",
-                "unit": "lb"
-              },
-              "decision": "hold",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
@@ -45369,17 +46076,60 @@
                 "position": 2
               }
             ],
+            "position": 4,
+            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+            "progression": {
+              "reason": {
+                "at": 125,
+                "top": 15,
+                "code": "progressionHitTop",
+                "next": 130,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 125
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
             "position": 5,
             "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
-                "at": 130,
+                "at": 140,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 130
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -45389,21 +46139,21 @@
             "name": "Cable Rope Overhead Triceps Extension",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -45469,7 +46219,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -45633,7 +46383,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -45905,7 +46655,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -46154,7 +46904,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46375,7 +47125,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46624,7 +47374,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -46926,7 +47676,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -47175,7 +47925,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47424,7 +48174,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -47726,7 +48476,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -47947,7 +48697,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -48249,7 +48999,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "efe8e767-e418-45f5-a425-17308cc2cd8b"
       },
       {
@@ -48413,7 +49163,7 @@
           }
         ],
         "created_at": "2026-10-16T07:56:32.51916+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -48585,55 +49335,14 @@
             "name": "Rear Delt Reverse Fly (Machine)",
             "sets": [
               {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 1
-              },
-              {
-                "reps": 15,
-                "unit": "lb",
-                "weight": 125,
-                "setType": "normal",
-                "position": 2
-              }
-            ],
-            "position": 4,
-            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "at": 125,
-                "top": 15,
-                "code": "progressionNotYet",
-                "unit": "lb"
-              },
-              "decision": "hold",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 13,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 130,
                 "setType": "normal",
@@ -48647,17 +49356,60 @@
                 "position": 2
               }
             ],
+            "position": 4,
+            "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
+            "progression": {
+              "reason": {
+                "at": 125,
+                "top": 15,
+                "code": "progressionHitTop",
+                "next": 130,
+                "sets": 3,
+                "unit": "lb"
+              },
+              "decision": "increase",
+              "fromWeight": 125
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 1
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 140,
+                "setType": "normal",
+                "position": 2
+              }
+            ],
             "position": 5,
             "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
-                "at": 130,
+                "at": 140,
                 "top": 15,
                 "code": "progressionNotYet",
                 "unit": "lb"
               },
               "decision": "hold",
-              "fromWeight": 130
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -48667,21 +49419,21 @@
             "name": "Cable Rope Overhead Triceps Extension",
             "sets": [
               {
-                "reps": 11,
+                "reps": 12,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 0
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
                 "position": 1
               },
               {
-                "reps": 10,
+                "reps": 11,
                 "unit": "lb",
                 "weight": 120,
                 "setType": "normal",
@@ -48747,7 +49499,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -48887,7 +49639,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       },
       {
@@ -49045,57 +49797,20 @@
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 110,
+                "weight": 115,
                 "setType": "normal",
                 "position": 0
               },
               {
                 "reps": 12,
                 "unit": "lb",
-                "weight": 110,
+                "weight": 115,
                 "setType": "normal",
                 "position": 1
               }
             ],
             "position": 4,
             "exerciseId": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
-            "progression": {
-              "reason": {
-                "code": "deloadWeek",
-                "from": 125,
-                "reps": 12,
-                "sets": 2,
-                "unit": "lb",
-                "share": 90,
-                "weight": 110
-              },
-              "decision": "deload",
-              "fromWeight": 125
-            },
-            "repRangeEnd": 15,
-            "repRangeStart": 12,
-            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
-          },
-          {
-            "name": "Lateral Raise (Machine)",
-            "sets": [
-              {
-                "reps": 12,
-                "unit": "lb",
-                "weight": 115,
-                "setType": "normal",
-                "position": 0
-              },
-              {
-                "reps": 12,
-                "unit": "lb",
-                "weight": 115,
-                "setType": "normal",
-                "position": 1
-              }
-            ],
-            "position": 5,
-            "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
             "progression": {
               "reason": {
                 "code": "deloadWeek",
@@ -49108,6 +49823,43 @@
               },
               "decision": "deload",
               "fromWeight": 130
+            },
+            "repRangeEnd": 15,
+            "repRangeStart": 12,
+            "blockExerciseId": "54a2857f-65c9-4fd2-9b18-6029558050f6"
+          },
+          {
+            "name": "Lateral Raise (Machine)",
+            "sets": [
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 125,
+                "setType": "normal",
+                "position": 0
+              },
+              {
+                "reps": 12,
+                "unit": "lb",
+                "weight": 125,
+                "setType": "normal",
+                "position": 1
+              }
+            ],
+            "position": 5,
+            "exerciseId": "49ef4899-2666-4467-a179-dc5bb36eae77",
+            "progression": {
+              "reason": {
+                "code": "deloadWeek",
+                "from": 140,
+                "reps": 12,
+                "sets": 2,
+                "unit": "lb",
+                "share": 90,
+                "weight": 125
+              },
+              "decision": "deload",
+              "fromWeight": 140
             },
             "repRangeEnd": 15,
             "repRangeStart": 12,
@@ -49189,7 +49941,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "d3520680-c247-4fa7-a78a-37c90d5fedcd"
       },
       {
@@ -49438,7 +50190,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "e281a82e-264a-4c5a-af2c-7bba9abe54ff"
       },
       {
@@ -49602,7 +50354,7 @@
           }
         ],
         "created_at": "2026-10-12T22:26:39.692651+00:00",
-        "updated_at": "2026-10-16T07:56:32.51916+00:00",
+        "updated_at": "2026-10-17T07:56:32.08383+00:00",
         "block_session_id": "658a8e84-1b8a-493c-bf95-19a5252997c5"
       }
     ],
@@ -58883,6 +59635,16 @@
         "superset_group": null
       },
       {
+        "id": "08fe5f8c-d2cd-42c8-b060-ea99c2e9c0f3",
+        "notes": null,
+        "position": 10,
+        "created_at": "2026-10-16T23:46:55.186721+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "5e4e9572-49e9-426d-8a72-9dd59940a558",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "0927720e-26c4-48dc-9cee-9a01cb95e57c",
         "notes": null,
         "position": 4,
@@ -61203,6 +61965,16 @@
         "superset_group": null
       },
       {
+        "id": "3079d6e9-57ee-45fa-82f7-a69d7aab19fe",
+        "notes": null,
+        "position": 5,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "49ef4899-2666-4467-a179-dc5bb36eae77",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "3092b61b-e8b8-4aea-af1c-db4197ae34e8",
         "notes": null,
         "position": 4,
@@ -61609,6 +62381,16 @@
         "created_at": "2026-10-12T21:14:42.032673+00:00",
         "workout_id": "4be5c549-6742-4659-ac36-9dc2c3101f06",
         "exercise_id": "e8484ba5-4f9f-435c-9ec9-a2bb04d666d7",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "3797c52a-2a6e-4c52-8cbd-dea28921e173",
+        "notes": null,
+        "position": 6,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "c03d8dd9-db62-4f07-ae4d-0ff062ffcf8b",
         "rest_seconds": null,
         "superset_group": null
       },
@@ -63229,6 +64011,16 @@
         "created_at": "2026-10-12T21:14:42.032673+00:00",
         "workout_id": "5ec8dc3c-a493-48bb-a124-10614c6ba155",
         "exercise_id": "9325f45b-a257-4175-af69-d983f7e453cd",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "52baafbf-7249-41d9-8256-c8f0e35a0c6c",
+        "notes": null,
+        "position": 4,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "2aed0cf9-c8c1-44cd-a9d7-722df3384473",
         "rest_seconds": null,
         "superset_group": null
       },
@@ -66763,6 +67555,16 @@
         "superset_group": null
       },
       {
+        "id": "8f525877-0d04-4f45-af05-0092c65ed21e",
+        "notes": null,
+        "position": 12,
+        "created_at": "2026-10-16T23:55:22.388893+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "6740172f-e3bd-4073-ba44-98d29b5973e8",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "8f57055c-b828-41b4-8d1e-8c2a069adb92",
         "notes": null,
         "position": 5,
@@ -68119,6 +68921,16 @@
         "created_at": "2026-10-12T21:14:42.032673+00:00",
         "workout_id": "7bd470ec-9ded-495d-a944-766170103d0d",
         "exercise_id": "98673e51-f1c3-4da8-a888-c9bf8be26fe8",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "a9e2652a-2a06-4b15-aa95-fadfddcb1de3",
+        "notes": null,
+        "position": 13,
+        "created_at": "2026-10-17T00:02:19.207816+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "a28cdf93-434b-407b-9ff3-72a42451270a",
         "rest_seconds": null,
         "superset_group": null
       },
@@ -69543,6 +70355,16 @@
         "superset_group": null
       },
       {
+        "id": "c7b33340-9ed9-4c1c-bb16-b1ffa5db82c3",
+        "notes": null,
+        "position": 7,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "8b00c88c-643c-4a27-94c2-7e79874235d3",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "c800a1e3-b297-4c7a-8a14-5a32b798f72d",
         "notes": null,
         "position": 1,
@@ -70193,6 +71015,16 @@
         "superset_group": null
       },
       {
+        "id": "d43bc350-ff15-4163-9aa4-5badb61e417f",
+        "notes": null,
+        "position": 9,
+        "created_at": "2026-10-16T23:28:13.333585+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "5c381e98-6586-4f3d-aac2-36224530969b",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
         "id": "d4dfd8c1-8bd9-4536-ba7b-2c3d165c4acd",
         "notes": null,
         "position": 5,
@@ -70279,6 +71111,16 @@
         "created_at": "2026-10-12T21:14:42.032673+00:00",
         "workout_id": "afdcec20-b3a8-479c-81c2-e9502a8d5961",
         "exercise_id": "ac06304f-48e5-4087-8b26-7c559b7216c6",
+        "rest_seconds": null,
+        "superset_group": null
+      },
+      {
+        "id": "d6027d25-4560-490d-be86-38f7bf2f1778",
+        "notes": null,
+        "position": 11,
+        "created_at": "2026-10-16T23:47:47.731668+00:00",
+        "workout_id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "exercise_id": "150ac2c3-4afd-425e-ad1b-2516ac1aba77",
         "rest_seconds": null,
         "superset_group": null
       },
@@ -72813,6 +73655,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "8bc86325-a219-4266-a368-b07ea9ddbc74"
+      },
+      {
+        "id": "01554dfe-067f-497d-b3bc-b4b21d39e873",
+        "rir": null,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 180,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:46:56.906909+00:00",
+        "updated_at": "2026-10-16T23:47:13.803364+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "08fe5f8c-d2cd-42c8-b060-ea99c2e9c0f3"
       },
       {
         "id": "01564950-9c40-40c9-9269-d5839c62b37f",
@@ -75903,6 +76761,22 @@
         "workout_exercise_id": "4f334579-8387-4996-a674-b2e8028de75a"
       },
       {
+        "id": "0c3cf1fd-82d7-4129-b188-e8c4d8e75c02",
+        "rir": 0,
+        "reps": 7,
+        "unit": "lb",
+        "notes": null,
+        "weight": 180,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:47:50.904504+00:00",
+        "updated_at": "2026-10-17T00:20:19.815722+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "d6027d25-4560-490d-be86-38f7bf2f1778"
+      },
+      {
         "id": "0c51d4f1-e8f5-4ce5-9ce2-641fa19bd4d5",
         "rir": null,
         "reps": 10,
@@ -78189,6 +79063,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "3545375b-46b0-4c39-a96f-e10f4b704b15"
+      },
+      {
+        "id": "13cbe07e-d835-4409-a21e-ec2e4a0c1b7e",
+        "rir": null,
+        "reps": 13,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:51:35.299982+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3797c52a-2a6e-4c52-8cbd-dea28921e173"
       },
       {
         "id": "13ccb5a9-380b-4ca7-b593-8e1382cca5b0",
@@ -85519,6 +86409,22 @@
         "workout_exercise_id": "98f9a7b0-a497-42e5-b205-46f3e2c6cf0c"
       },
       {
+        "id": "2cc97245-30e8-432a-8fd7-e90633541037",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:55:35.883728+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3797c52a-2a6e-4c52-8cbd-dea28921e173"
+      },
+      {
         "id": "2ccc7d58-f124-4284-ab80-4e7f823298f9",
         "rir": null,
         "reps": 15,
@@ -86655,6 +87561,22 @@
         "workout_exercise_id": "0d70ce29-b5a8-41d8-ac74-cdcc1e4f9f6e"
       },
       {
+        "id": "30d2ec80-0eba-43b2-a2fb-bca251621972",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 190,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-17T00:02:21.243572+00:00",
+        "updated_at": "2026-10-17T00:11:31.51537+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "a9e2652a-2a06-4b15-aa95-fadfddcb1de3"
+      },
+      {
         "id": "30fa5145-a9c8-432b-b263-cea8ce2ed133",
         "rir": null,
         "reps": 6,
@@ -87133,6 +88055,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "54ea7fc6-57da-46ee-9991-44715b07fca0"
+      },
+      {
+        "id": "32175a8e-b47d-4a47-93c6-aec77e76c290",
+        "rir": 2,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 100,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:50:27.046132+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "c7b33340-9ed9-4c1c-bb16-b1ffa5db82c3"
       },
       {
         "id": "321c0882-bd1a-45c0-96d8-8356b8155b84",
@@ -90717,6 +91655,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "9f55108c-a564-4646-9bc3-548d9d935103"
+      },
+      {
+        "id": "3e192c96-e42f-4692-bb6a-1eed3c44a1d2",
+        "rir": null,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 100,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:45:41.476245+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "c7b33340-9ed9-4c1c-bb16-b1ffa5db82c3"
       },
       {
         "id": "3e213613-5761-4468-a43b-bf796fbc52bb",
@@ -95871,6 +96825,22 @@
         "workout_exercise_id": "a820d240-d943-4522-941f-49af8738e594"
       },
       {
+        "id": "4fdda673-3f46-48d2-b38f-0932a0a9f4a4",
+        "rir": null,
+        "reps": 15,
+        "unit": "lb",
+        "notes": null,
+        "weight": 125,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:23:18.886461+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "52baafbf-7249-41d9-8256-c8f0e35a0c6c"
+      },
+      {
         "id": "4fdeb5fb-7303-45f7-a6e7-aae5571c70e5",
         "rir": null,
         "reps": 12,
@@ -100527,6 +101497,22 @@
         "workout_exercise_id": "1bbe50f4-d73f-4911-a262-7553056a8f70"
       },
       {
+        "id": "609bdd52-57bc-429a-82d5-16ecb6e49693",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": null,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:28:15.222652+00:00",
+        "updated_at": "2026-10-16T23:29:01.737293+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "d43bc350-ff15-4163-9aa4-5badb61e417f"
+      },
+      {
         "id": "609fab39-3cf9-4bd2-8924-c271a51963fb",
         "rir": null,
         "reps": 12,
@@ -101327,6 +102313,22 @@
         "workout_exercise_id": "d648ab96-4474-4497-a3b1-04632d61421e"
       },
       {
+        "id": "635e0983-e4d8-425e-b200-be8bbe0126d1",
+        "rir": null,
+        "reps": 15,
+        "unit": "lb",
+        "notes": null,
+        "weight": 130,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:47:50.176166+00:00",
+        "updated_at": "2026-10-16T23:49:33.851623+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "d6027d25-4560-490d-be86-38f7bf2f1778"
+      },
+      {
         "id": "6382921a-2aaf-45c9-807c-7a3f05112f17",
         "rir": null,
         "reps": 4,
@@ -101981,6 +102983,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "d5bc6bb6-8e2c-4083-98a8-6577e4a27cc9"
+      },
+      {
+        "id": "65d4ec95-5c79-47f5-9c23-3d231d74c51c",
+        "rir": 1,
+        "reps": 15,
+        "unit": "lb",
+        "notes": null,
+        "weight": 125,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:30:33.73066+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "52baafbf-7249-41d9-8256-c8f0e35a0c6c"
       },
       {
         "id": "65dbcb72-f00f-4751-a3a4-0d774343328d",
@@ -104525,6 +105543,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "fabfcb32-0042-454b-ad5f-fa04dc6b082e"
+      },
+      {
+        "id": "6eafebc5-83d2-4332-81a7-0754d9f52531",
+        "rir": null,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:55:25.252064+00:00",
+        "updated_at": "2026-10-16T23:56:30.897203+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "8f525877-0d04-4f45-af05-0092c65ed21e"
       },
       {
         "id": "6eb0d2cd-46e8-44ed-a871-9cdd634985c3",
@@ -109279,6 +110313,22 @@
         "workout_exercise_id": "2aa60519-6ce0-4f6a-a4a6-ecfd78c1ad8b"
       },
       {
+        "id": "80029c4b-eb51-4553-bb15-f071fcb25dea",
+        "rir": null,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 190,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-17T00:02:23.276869+00:00",
+        "updated_at": "2026-10-17T00:13:38.089316+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "a9e2652a-2a06-4b15-aa95-fadfddcb1de3"
+      },
+      {
         "id": "8021a062-14d5-4902-bb99-a7e7d409394c",
         "rir": null,
         "reps": 15,
@@ -109853,6 +110903,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "5ffa7a66-78e1-45fc-9eec-7924bf3e1110"
+      },
+      {
+        "id": "824ccf2d-cf89-4dbc-a982-f130179c4c8f",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:42:33.802579+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "c7b33340-9ed9-4c1c-bb16-b1ffa5db82c3"
       },
       {
         "id": "825c1a9a-ecf5-49a2-80de-f7d1f3722056",
@@ -113439,6 +114505,22 @@
         "workout_exercise_id": "28a9f645-8405-49d0-bcde-35f5618eb96b"
       },
       {
+        "id": "8e6d2d37-0e3f-414f-ad02-67bf079064e7",
+        "rir": null,
+        "reps": 14,
+        "unit": "lb",
+        "notes": null,
+        "weight": 130,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:34:48.022879+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3079d6e9-57ee-45fa-82f7-a69d7aab19fe"
+      },
+      {
         "id": "8e7c3c9f-d8cc-4dbe-97bf-f8137fbc1544",
         "rir": null,
         "reps": 9,
@@ -114653,6 +115735,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "8de6052a-b727-46d8-89e1-da47759296d3"
+      },
+      {
+        "id": "93ff0140-c61a-4d32-8abe-ceddd020cf09",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": null,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:28:15.870319+00:00",
+        "updated_at": "2026-10-16T23:32:20.872698+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "d43bc350-ff15-4163-9aa4-5badb61e417f"
       },
       {
         "id": "9410ebf7-0e4d-44aa-9204-ac3a05d07ac2",
@@ -116607,6 +117705,22 @@
         "workout_exercise_id": "07f62e59-9bfd-474e-ae4f-60e864eb0574"
       },
       {
+        "id": "9ac977da-4b48-411d-9c0d-ba86efb8185d",
+        "rir": 1,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 120,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:59:47.897548+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3797c52a-2a6e-4c52-8cbd-dea28921e173"
+      },
+      {
         "id": "9ad3ea9b-93f4-4358-9e8e-ab02b03bb910",
         "rir": null,
         "reps": 12,
@@ -116733,6 +117847,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "33f6cc33-69dc-4012-82d7-8dfcf9a23877"
+      },
+      {
+        "id": "9b09dee0-a346-49e2-bdeb-4bbf11419f5b",
+        "rir": 1,
+        "reps": 7,
+        "unit": "lb",
+        "notes": null,
+        "weight": 170,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:55:26.76128+00:00",
+        "updated_at": "2026-10-17T00:08:26.278279+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "8f525877-0d04-4f45-af05-0092c65ed21e"
       },
       {
         "id": "9b0e86e5-3fd1-4822-8278-f3db1b45dfb6",
@@ -122031,6 +123161,22 @@
         "workout_exercise_id": "5f964673-c601-4e7f-96fd-c3ba61d27794"
       },
       {
+        "id": "ac4acd75-c3d6-4347-a61f-29db080c505f",
+        "rir": null,
+        "reps": 15,
+        "unit": "lb",
+        "notes": null,
+        "weight": 125,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:19:07.631623+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "52baafbf-7249-41d9-8256-c8f0e35a0c6c"
+      },
+      {
         "id": "ac4cad92-2afe-45bc-9921-96d9d134db8e",
         "rir": null,
         "reps": 13,
@@ -125293,6 +126439,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "1ad93ab8-e0c5-48d6-ba20-f2d641757574"
+      },
+      {
+        "id": "b78369a4-d604-40d0-9a27-6166634bfbd1",
+        "rir": 2,
+        "reps": 11,
+        "unit": "lb",
+        "notes": null,
+        "weight": 180,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:46:57.859422+00:00",
+        "updated_at": "2026-10-17T00:20:16.926706+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "08fe5f8c-d2cd-42c8-b060-ea99c2e9c0f3"
       },
       {
         "id": "b79c52f4-ab7e-47c4-84cb-0ecc613ca20c",
@@ -130351,6 +131513,22 @@
         "workout_exercise_id": "ae352d64-d0b8-4f70-ae39-f2ae683e90d7"
       },
       {
+        "id": "c8573c2b-b83c-4675-8b08-9a95d4218525",
+        "rir": 1,
+        "reps": 13,
+        "unit": "lb",
+        "notes": null,
+        "weight": 130,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:44:16.144087+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3079d6e9-57ee-45fa-82f7-a69d7aab19fe"
+      },
+      {
         "id": "c8607dba-95ab-46e3-a49c-815ff22bbd75",
         "rir": null,
         "reps": 10,
@@ -132911,6 +134089,22 @@
         "workout_exercise_id": "4a8a7873-607f-4b1a-a118-636f3fe1fb20"
       },
       {
+        "id": "d2a49074-114e-433c-9644-668163db5269",
+        "rir": null,
+        "reps": 10,
+        "unit": "lb",
+        "notes": null,
+        "weight": 140,
+        "position": 0,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:25:34.793571+00:00",
+        "updated_at": "2026-10-17T00:31:34.876562+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "3079d6e9-57ee-45fa-82f7-a69d7aab19fe"
+      },
+      {
         "id": "d2b4c3ae-64ce-4da1-b052-4dbf58e905ce",
         "rir": null,
         "reps": 14,
@@ -133613,6 +134807,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "a4064137-a95c-4601-9f55-0194eb9df629"
+      },
+      {
+        "id": "d57530fc-236d-4b29-ac08-1a744d50ad7d",
+        "rir": 3,
+        "reps": 12,
+        "unit": "lb",
+        "notes": null,
+        "weight": 190,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-17T00:02:23.879657+00:00",
+        "updated_at": "2026-10-17T00:16:11.982983+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "a9e2652a-2a06-4b15-aa95-fadfddcb1de3"
       },
       {
         "id": "d57e8b37-1ca4-4d5a-9ec7-26260394f182",
@@ -137453,6 +138663,22 @@
         "distance_meters": null,
         "duration_seconds": null,
         "workout_exercise_id": "1d3a8803-080b-4603-8400-4d9ad0fd59cb"
+      },
+      {
+        "id": "e101efaf-8192-4b07-83cc-f8d87dc33354",
+        "rir": 1,
+        "reps": 8,
+        "unit": "lb",
+        "notes": null,
+        "weight": null,
+        "position": 2,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:28:17.126793+00:00",
+        "updated_at": "2026-10-16T23:35:28.13723+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "d43bc350-ff15-4163-9aa4-5badb61e417f"
       },
       {
         "id": "e10292e1-8f7d-45f7-b6a6-5a0962703b8a",
@@ -145007,6 +146233,22 @@
         "workout_exercise_id": "9815beff-f59d-4748-b29e-6b4924756bb7"
       },
       {
+        "id": "fac76c54-c8b9-45b1-adae-5e652fd39ffc",
+        "rir": null,
+        "reps": 13,
+        "unit": "lb",
+        "notes": null,
+        "weight": 140,
+        "position": 1,
+        "set_type": "normal",
+        "completed": true,
+        "created_at": "2026-10-16T23:55:26.242107+00:00",
+        "updated_at": "2026-10-17T00:01:21.668876+00:00",
+        "distance_meters": null,
+        "duration_seconds": null,
+        "workout_exercise_id": "8f525877-0d04-4f45-af05-0092c65ed21e"
+      },
+      {
         "id": "facedd4f-d873-4b71-ae24-29cd979b74b2",
         "rir": null,
         "reps": 15,
@@ -146696,6 +147938,7 @@
         "started_at": "2026-05-24T00:55:22+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-24T02:45:36+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:29.068+00:00",
         "hevy_workout_id": "1f9e7b2e-fbd5-40ba-bd6c-7a1a4af41bb2"
       },
@@ -146707,6 +147950,7 @@
         "started_at": "2025-12-19T17:16:49+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-19T19:00:09+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:47.405+00:00",
         "hevy_workout_id": "3e36f90f-f3e3-4946-8709-51970645e735"
       },
@@ -146718,6 +147962,7 @@
         "started_at": "2026-05-17T16:49:22+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-17T18:46:13+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:26.852+00:00",
         "hevy_workout_id": "92d5e5fa-feea-4dd6-b17d-12eec19758c9"
       },
@@ -146729,6 +147974,7 @@
         "started_at": "2025-11-12T23:39:28+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-13T01:25:31+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:37.914+00:00",
         "hevy_workout_id": "e53dd45d-864b-4a4c-b65b-bd9bf7e06760"
       },
@@ -146740,6 +147986,7 @@
         "started_at": "2026-06-09T22:57:43+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-10T00:16:35+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-10T00:16:38.53+00:00",
         "hevy_workout_id": "3c7f7c83-87f0-45cd-919d-12bc6b6f9ded"
       },
@@ -146751,6 +147998,7 @@
         "started_at": "2026-09-11T21:50:38+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-11T23:46:10+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-11T23:46:24.035+00:00",
         "hevy_workout_id": "76ad6254-fd57-4537-8593-12b601b8396e"
       },
@@ -146762,6 +148010,7 @@
         "started_at": "2026-05-15T22:27:48+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-16T00:12:47+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:26.271+00:00",
         "hevy_workout_id": "f24b49d0-9593-4849-b4f9-5c565468c6be"
       },
@@ -146773,6 +148022,7 @@
         "started_at": "2026-03-30T23:21:07+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-31T00:59:06+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "de56cc6c-cb13-4aff-8ef5-6c129e1f581d"
       },
@@ -146784,6 +148034,7 @@
         "started_at": "2026-01-13T02:05:07+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-13T03:57:29+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:54.761+00:00",
         "hevy_workout_id": "0777300e-6478-4dda-be0a-3878bbe4026c"
       },
@@ -146795,6 +148046,7 @@
         "started_at": "2026-06-15T01:12:49+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-15T02:50:37+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-15T02:50:41.016+00:00",
         "hevy_workout_id": "af678802-f580-43c6-ab36-f3817c7bd531"
       },
@@ -146806,6 +148058,7 @@
         "started_at": "2026-05-30T14:08:32+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-30T15:52:31+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:30.922+00:00",
         "hevy_workout_id": "861f737f-5ccc-4772-9bde-65590b433392"
       },
@@ -146817,6 +148070,7 @@
         "started_at": "2026-05-25T18:15:59+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-25T20:05:27+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:29.722+00:00",
         "hevy_workout_id": "27f08e9f-9654-44c6-8e56-1ec699f74e36"
       },
@@ -146828,6 +148082,7 @@
         "started_at": "2026-09-17T22:36:30+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-17T23:51:29+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-17T23:51:35.286+00:00",
         "hevy_workout_id": "ea133763-55dd-4483-9ba0-9d6567d45b4a"
       },
@@ -146839,6 +148094,7 @@
         "started_at": "2026-06-01T22:13:54+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-01T23:44:48+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:31.444+00:00",
         "hevy_workout_id": "6d8ac441-cdd2-4cab-a5fa-e4575c1082a9"
       },
@@ -146850,6 +148106,7 @@
         "started_at": "2026-08-31T22:29:27+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-31T23:28:54+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-31T23:28:59.609+00:00",
         "hevy_workout_id": "222265d1-a0ea-4747-806a-31b858cbe188"
       },
@@ -146861,6 +148118,7 @@
         "started_at": "2026-02-09T23:44:08+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-10T01:52:07+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:02.132+00:00",
         "hevy_workout_id": "77f1f8e4-6f7d-4e6b-9e0e-850169dc8799"
       },
@@ -146872,6 +148130,7 @@
         "started_at": "2026-08-11T22:55:48+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-12T00:01:12+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-12T01:33:29.179+00:00",
         "hevy_workout_id": "5fef0c23-643d-4d21-9e31-4cdd1206db4c"
       },
@@ -146883,6 +148142,7 @@
         "started_at": "2026-06-21T16:10:43+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-21T17:55:57+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-21T17:56:01.646+00:00",
         "hevy_workout_id": "6427e985-c548-4f72-8de3-c5b5e864c62a"
       },
@@ -146894,6 +148154,7 @@
         "started_at": "2026-01-12T00:41:16+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-12T03:08:36+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:54.166+00:00",
         "hevy_workout_id": "e3f9b70e-958d-4d69-963c-d74c8ef29080"
       },
@@ -146905,6 +148166,7 @@
         "started_at": "2026-08-13T22:56:11+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-14T00:05:08+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-14T00:05:14.486+00:00",
         "hevy_workout_id": "3233f872-1fb1-4458-b507-df57e15d05f7"
       },
@@ -146916,6 +148178,7 @@
         "started_at": "2025-12-26T15:55:05+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-26T17:33:44+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:49.626+00:00",
         "hevy_workout_id": "26e307a1-1345-43a2-b025-e4b1c39d60f0"
       },
@@ -146927,6 +148190,7 @@
         "started_at": "2026-06-04T22:52:59+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-05T01:00:11+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:32.606+00:00",
         "hevy_workout_id": "f0574e79-56e5-4e2f-9c06-ed27f4738595"
       },
@@ -146938,6 +148202,7 @@
         "started_at": "2026-04-29T23:11:28+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-30T00:44:46+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:21.683+00:00",
         "hevy_workout_id": "ce3ab533-941c-4dd5-8a87-6381cd0193bc"
       },
@@ -146949,6 +148214,7 @@
         "started_at": "2025-11-24T00:02:41+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-24T01:31:29+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:41.189+00:00",
         "hevy_workout_id": "0858316e-4c9a-4b59-bd3f-4ab3eb00888b"
       },
@@ -146960,6 +148226,7 @@
         "started_at": "2025-11-20T23:38:32+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-21T01:12:16+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:40.665+00:00",
         "hevy_workout_id": "931dba28-9173-4fc5-9d54-f78fcddec708"
       },
@@ -146971,6 +148238,7 @@
         "started_at": "2026-07-09T22:38:33+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-10T00:00:02+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-10T00:00:06.657+00:00",
         "hevy_workout_id": "cdf07ca1-8f0b-45cd-b034-be23016f8957"
       },
@@ -146982,6 +148250,7 @@
         "started_at": "2026-07-10T23:13:47+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-11T00:30:12+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-11T00:30:17.856+00:00",
         "hevy_workout_id": "6d86ec8c-a2b3-43c6-b1a2-43da27076796"
       },
@@ -146993,6 +148262,7 @@
         "started_at": "2026-10-09T22:27:32+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-10-10T00:01:13+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-10-10T00:01:19.163+00:00",
         "hevy_workout_id": "f575f97e-001e-4ac3-8699-7a750e3a75b7"
       },
@@ -147004,6 +148274,7 @@
         "started_at": "2026-09-15T22:21:59+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-15T23:53:34+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-15T23:53:36.867+00:00",
         "hevy_workout_id": "3befdcad-b002-463b-b1d4-c8ba2ce569f1"
       },
@@ -147015,6 +148286,7 @@
         "started_at": "2026-01-26T01:38:02+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-26T03:04:19+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-01-26T03:04:23.297+00:00",
         "hevy_workout_id": "d9ea4393-7a40-495b-b176-a68edf871c89"
       },
@@ -147026,6 +148298,7 @@
         "started_at": "2026-02-16T23:29:22+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-17T01:16:53+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:03.872+00:00",
         "hevy_workout_id": "94381153-6e7c-4fcc-a2ab-d55867ea02c0"
       },
@@ -147037,6 +148310,7 @@
         "started_at": "2025-11-30T00:11:38+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-30T01:53:11+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:42.829+00:00",
         "hevy_workout_id": "c51c05b7-5db2-4707-a191-050c1a1a1fc6"
       },
@@ -147048,6 +148322,7 @@
         "started_at": "2026-07-13T22:57:17+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-14T00:19:36+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-14T00:26:09.22+00:00",
         "hevy_workout_id": "37b1c931-c6e4-490a-b271-69a60f354607"
       },
@@ -147059,6 +148334,7 @@
         "started_at": "2026-05-20T22:49:18+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-21T00:30:33+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:27.935+00:00",
         "hevy_workout_id": "68160705-d93f-4bdb-afa9-36cfc075ed20"
       },
@@ -147070,6 +148346,7 @@
         "started_at": "2026-01-13T18:00:00+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-13T18:06:29+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-01-14T00:53:58.973+00:00",
         "hevy_workout_id": "6af1c5c6-c2a9-4305-ad95-6c770d7b5328"
       },
@@ -147081,6 +148358,7 @@
         "started_at": "2026-01-19T02:46:41+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-19T04:17:35+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:56.547+00:00",
         "hevy_workout_id": "b5898464-e498-4dc3-91d4-f6d4b6199819"
       },
@@ -147092,6 +148370,7 @@
         "started_at": "2026-01-16T23:33:54+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-17T01:56:38+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:55.991+00:00",
         "hevy_workout_id": "dcc44bc8-14b0-4154-b7f5-e8c388682551"
       },
@@ -147103,6 +148382,7 @@
         "started_at": "2025-12-15T02:03:06+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-15T02:47:43+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2025-12-15T02:48:05.878+00:00",
         "hevy_workout_id": "0c153bc3-387d-4418-8ef2-f5696c2ef943"
       },
@@ -147114,6 +148394,7 @@
         "started_at": "2025-12-23T01:49:11+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-23T03:40:07+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:48.533+00:00",
         "hevy_workout_id": "18240743-aeb3-4b47-8c58-09d4db12aa26"
       },
@@ -147125,6 +148406,7 @@
         "started_at": "2026-07-22T22:52:52+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-23T00:28:52+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-23T00:42:31.111+00:00",
         "hevy_workout_id": "9ea63ce2-8431-4543-acef-830cb4de3585"
       },
@@ -147136,6 +148418,7 @@
         "started_at": "2026-09-28T22:40:01+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-28T23:47:26+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-28T23:47:30.11+00:00",
         "hevy_workout_id": "dfcfdcaa-966d-49c6-b7ae-abdea7ae72bf"
       },
@@ -147147,6 +148430,7 @@
         "started_at": "2026-02-16T02:29:29+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-16T03:45:00+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:03.275+00:00",
         "hevy_workout_id": "ca8a3c6c-eb60-4201-8157-2f7fc68f1fd9"
       },
@@ -147158,6 +148442,7 @@
         "started_at": "2025-11-15T02:07:03+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-15T04:19:03+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:38.456+00:00",
         "hevy_workout_id": "ea96959b-dab4-414f-a29e-f46ab53fd037"
       },
@@ -147169,6 +148454,7 @@
         "started_at": "2025-12-12T17:19:27+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-12T19:00:18+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:46.734+00:00",
         "hevy_workout_id": "b4f44d23-3719-4cce-bd9c-727b3ce76a6c"
       },
@@ -147180,6 +148466,7 @@
         "started_at": "2026-03-20T23:54:45+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-21T01:24:39+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "53ac9cd4-198a-47af-b246-9b84e3fa211e"
       },
@@ -147191,6 +148478,7 @@
         "started_at": "2026-05-29T22:42:34+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-30T00:29:41+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:30.798+00:00",
         "hevy_workout_id": "68c7e863-defa-46d4-9e29-e2cffbf8c467"
       },
@@ -147202,6 +148490,7 @@
         "started_at": "2025-12-30T23:27:22+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-31T00:53:13+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:51.336+00:00",
         "hevy_workout_id": "2cafab64-ba16-4bfd-a50f-7c2226cdf5a4"
       },
@@ -147213,6 +148502,7 @@
         "started_at": "2026-09-21T23:04:34+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-22T00:11:46+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-22T00:11:53.006+00:00",
         "hevy_workout_id": "ed4addd8-93a8-418f-a8f1-3a53b5d03346"
       },
@@ -147224,6 +148514,7 @@
         "started_at": "2026-07-24T22:04:15+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-24T22:27:46+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-24T22:27:55.396+00:00",
         "hevy_workout_id": "23da2dbd-551f-4fd2-ab60-c451adb843e5"
       },
@@ -147235,6 +148526,7 @@
         "started_at": "2026-03-25T23:08:32+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-26T00:45:32+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "27585e7e-f5e3-42d2-82de-c37af8bdf60d"
       },
@@ -147246,6 +148538,7 @@
         "started_at": "2025-12-21T17:04:04+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-21T18:24:00+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:47.978+00:00",
         "hevy_workout_id": "8176da16-4a29-44a5-8e63-cc0f750b6baf"
       },
@@ -147257,6 +148550,7 @@
         "started_at": "2026-08-04T22:56:13+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-05T00:01:48+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-05T00:01:53.095+00:00",
         "hevy_workout_id": "4b0fbc57-4d6c-4c1f-82d1-08bfb5776f41"
       },
@@ -147268,6 +148562,7 @@
         "started_at": "2026-08-15T01:21:35+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-15T03:07:04+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-15T03:07:08.402+00:00",
         "hevy_workout_id": "7d9a1117-46f5-494c-8808-116ef8d902c6"
       },
@@ -147279,6 +148574,7 @@
         "started_at": "2026-09-22T22:23:37+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-22T23:45:47+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-22T23:45:57.561+00:00",
         "hevy_workout_id": "40cef27b-c59f-454f-a024-590400c04bba"
       },
@@ -147290,6 +148586,7 @@
         "started_at": "2025-11-15T22:12:25+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-16T00:24:00+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:38.98+00:00",
         "hevy_workout_id": "4e715779-4842-4378-918f-cf287e9a02d5"
       },
@@ -147301,6 +148598,7 @@
         "started_at": "2026-02-21T03:10:22+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-21T03:30:51+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-02-21T03:31:25.189+00:00",
         "hevy_workout_id": "45252a56-7aba-4850-9012-f4ff3d2bd521"
       },
@@ -147312,6 +148610,7 @@
         "started_at": "2025-12-29T23:29:49+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-30T01:22:57+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:50.778+00:00",
         "hevy_workout_id": "9a292dcd-2921-4e74-a637-968fd11ba115"
       },
@@ -147323,6 +148622,7 @@
         "started_at": "2026-04-17T22:08:45+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-17T23:46:52+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:20.341+00:00",
         "hevy_workout_id": "6f327e32-57aa-490a-9f5b-09c1888db23d"
       },
@@ -147334,6 +148634,7 @@
         "started_at": "2026-04-20T12:12:35+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-20T13:29:41+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:20.934+00:00",
         "hevy_workout_id": "40c8bda1-9552-4500-bda4-95183143849b"
       },
@@ -147345,6 +148646,7 @@
         "started_at": "2026-03-19T00:40:11+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-19T02:21:37+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "1836ca3a-06a0-46d2-8877-80babc0070a0"
       },
@@ -147356,6 +148658,7 @@
         "started_at": "2026-08-09T22:22:26+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-09T23:19:05+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-09T23:19:09.692+00:00",
         "hevy_workout_id": "716f593a-3c9e-4017-9692-bd1dc3c8d8a4"
       },
@@ -147367,6 +148670,7 @@
         "started_at": "2026-05-27T23:05:32+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-28T00:46:37+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:30.283+00:00",
         "hevy_workout_id": "49973a7d-194a-43d8-9fae-bb1c0f42038c"
       },
@@ -147378,6 +148682,7 @@
         "started_at": "2026-06-02T22:41:42+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-03T00:00:36+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:32.038+00:00",
         "hevy_workout_id": "4bcbce8f-87de-4265-b9a6-06b7449cdd1e"
       },
@@ -147389,6 +148694,7 @@
         "started_at": "2026-01-02T23:20:06+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-03T01:36:27+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:51.907+00:00",
         "hevy_workout_id": "a929961c-6451-4514-8b1c-38376b5de55c"
       },
@@ -147400,6 +148706,7 @@
         "started_at": "2026-01-08T23:23:50+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-09T00:57:50+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:53.587+00:00",
         "hevy_workout_id": "4027f35d-6f0a-465e-8f78-d67079bf983e"
       },
@@ -147411,6 +148718,7 @@
         "started_at": "2026-02-02T02:57:00+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-02T04:15:59+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:00.173+00:00",
         "hevy_workout_id": "e0ff7abe-503e-4695-bafd-131e17af33fe"
       },
@@ -147422,6 +148730,7 @@
         "started_at": "2026-07-21T21:59:09+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-21T23:17:59+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-21T23:18:10.285+00:00",
         "hevy_workout_id": "5672eefa-00e9-4c7f-aae8-99b317c04758"
       },
@@ -147433,6 +148742,7 @@
         "started_at": "2025-11-25T23:32:36+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-26T01:36:21+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:42.276+00:00",
         "hevy_workout_id": "dccb6190-f535-4893-bba0-07371ac164e8"
       },
@@ -147444,6 +148754,7 @@
         "started_at": "2026-05-10T01:13:29+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-10T02:43:41+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:24.563+00:00",
         "hevy_workout_id": "3711edbe-7fa1-4721-9e16-c1c49df40151"
       },
@@ -147455,6 +148766,7 @@
         "started_at": "2026-06-08T23:19:31+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-09T01:13:09+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-09T01:13:12.232+00:00",
         "hevy_workout_id": "e20f55e8-6fec-4525-9f61-492877b898d4"
       },
@@ -147466,6 +148778,7 @@
         "started_at": "2025-11-11T23:53:00+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-12T01:32:00+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:37.392+00:00",
         "hevy_workout_id": "ce900cd1-fe37-49da-8e5b-3826d6464cad"
       },
@@ -147477,6 +148790,7 @@
         "started_at": "2026-01-20T02:17:19+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-20T04:05:50+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:57.173+00:00",
         "hevy_workout_id": "82387eee-cdf4-4fb1-bcb4-90ca6acf4224"
       },
@@ -147488,6 +148802,7 @@
         "started_at": "2026-08-25T22:53:09+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-26T00:01:20+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-26T00:01:25.784+00:00",
         "hevy_workout_id": "27aa7245-aab1-48dd-b20e-fec7eb29a0c0"
       },
@@ -147499,6 +148814,7 @@
         "started_at": "2026-04-04T15:24:24+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-04T17:15:25+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "149d75c0-23b1-49af-bef9-88bdc8b87d32"
       },
@@ -147510,6 +148826,7 @@
         "started_at": "2026-09-18T23:31:10+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-19T01:14:46+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-19T01:14:51.932+00:00",
         "hevy_workout_id": "09841cf0-10e9-493c-a494-88ab804e5eb2"
       },
@@ -147521,6 +148838,7 @@
         "started_at": "2026-03-29T22:54:29+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-30T00:33:54+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "ad00b474-a381-4bfd-bc99-aaab48eb35f5"
       },
@@ -147532,6 +148850,7 @@
         "started_at": "2026-01-26T23:58:40+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-27T01:59:43+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:59.456+00:00",
         "hevy_workout_id": "dfa4cfa4-e4c6-447b-8ae9-6d90a9bf7731"
       },
@@ -147543,6 +148862,7 @@
         "started_at": "2026-03-27T23:05:38+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-28T00:35:15+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "6d8d08a4-b3ad-4e15-a401-838acd81c078"
       },
@@ -147554,6 +148874,7 @@
         "started_at": "2026-03-04T00:39:45+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-04T02:13:39+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:06.391+00:00",
         "hevy_workout_id": "e1622194-f66a-4397-9e1f-aa36981279f9"
       },
@@ -147565,6 +148886,7 @@
         "started_at": "2026-03-17T00:31:07+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-17T02:01:19+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "60a21781-ece6-48d6-94da-6eb05a35a606"
       },
@@ -147576,6 +148898,7 @@
         "started_at": "2026-07-06T23:36:47+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-07T00:50:54+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-07T00:51:02.397+00:00",
         "hevy_workout_id": "a2830a84-1702-42fe-bb04-629caa82a51a"
       },
@@ -147587,6 +148910,7 @@
         "started_at": "2026-08-20T22:48:20+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-20T23:53:19+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-20T23:53:24.517+00:00",
         "hevy_workout_id": "5118d516-6621-4e62-a920-6ac15bc0bd85"
       },
@@ -147598,8 +148922,21 @@
         "started_at": "2026-06-15T22:40:46+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-16T00:24:57+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-16T00:25:01.264+00:00",
         "hevy_workout_id": "54376550-64b1-4429-99f1-569243c3f1df"
+      },
+      {
+        "id": "7c75daba-49a7-4472-9b7a-be4a3a3beb86",
+        "name": "Upper B",
+        "notes": null,
+        "created_at": "2026-10-16T23:25:34.522225+00:00",
+        "started_at": "2026-10-16T23:25:33.098+00:00",
+        "updated_at": "2026-10-17T00:59:58.244868+00:00",
+        "finished_at": "2026-10-17T00:59:49.409+00:00",
+        "discarded_at": null,
+        "hevy_updated_at": null,
+        "hevy_workout_id": null
       },
       {
         "id": "7e0e0481-8eed-435e-aecd-32e06fee1683",
@@ -147609,6 +148946,7 @@
         "started_at": "2026-10-05T23:24:35+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-10-06T00:51:07+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-10-06T00:51:11.614+00:00",
         "hevy_workout_id": "d51da686-f34d-4c27-89cb-dc4850b0a560"
       },
@@ -147620,6 +148958,7 @@
         "started_at": "2026-10-13T22:24:07.632+00:00",
         "updated_at": "2026-10-13T23:39:44.857276+00:00",
         "finished_at": "2026-10-13T23:39:44.716+00:00",
+        "discarded_at": null,
         "hevy_updated_at": null,
         "hevy_workout_id": null
       },
@@ -147631,6 +148970,7 @@
         "started_at": "2026-09-25T22:14:02+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-26T00:05:08+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-26T00:05:11.979+00:00",
         "hevy_workout_id": "27896f11-d5ae-4554-9ad8-eac6a869b71d"
       },
@@ -147642,6 +148982,7 @@
         "started_at": "2025-12-10T00:05:58+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-10T01:29:29+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:46.182+00:00",
         "hevy_workout_id": "f51e654f-ab5b-4aab-b618-b210ad856426"
       },
@@ -147653,6 +148994,7 @@
         "started_at": "2026-04-15T23:03:01+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-16T01:08:44+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:19.73+00:00",
         "hevy_workout_id": "af72e138-e7f4-4247-bd11-ca97e477d07a"
       },
@@ -147664,6 +149006,7 @@
         "started_at": "2026-03-14T11:11:25+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-14T12:45:25+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:09.524+00:00",
         "hevy_workout_id": "0f846512-abea-4341-9c80-f0c25ae6130d"
       },
@@ -147675,6 +149018,7 @@
         "started_at": "2025-12-01T23:58:56+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-02T01:28:26+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:43.413+00:00",
         "hevy_workout_id": "5cdae5ec-01a0-4998-a17f-ca0bad7411cc"
       },
@@ -147686,6 +149030,7 @@
         "started_at": "2026-09-14T23:09:33+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-15T00:29:29+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-15T00:29:32.802+00:00",
         "hevy_workout_id": "67c6d24d-102c-4f61-a1f0-0b157bfec67c"
       },
@@ -147697,6 +149042,7 @@
         "started_at": "2026-08-27T22:44:47+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-27T23:52:07+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-27T23:52:10.391+00:00",
         "hevy_workout_id": "d332394e-22ed-4aed-84ec-742266c177f5"
       },
@@ -147708,6 +149054,7 @@
         "started_at": "2026-06-18T22:10:46+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-18T23:24:16+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-18T23:24:30.259+00:00",
         "hevy_workout_id": "2a89785d-885a-4108-80b4-94c7918c3bf0"
       },
@@ -147719,6 +149066,7 @@
         "started_at": "2025-12-23T22:11:50+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-23T23:45:57+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:49.061+00:00",
         "hevy_workout_id": "da776c1f-ad05-4d2a-95fa-d14a1c6cbf11"
       },
@@ -147730,6 +149078,7 @@
         "started_at": "2026-08-07T22:41:12+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-08T00:10:51+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-08T00:10:56.17+00:00",
         "hevy_workout_id": "49ceea49-4879-408a-b1b4-94378d7a23a3"
       },
@@ -147741,6 +149090,7 @@
         "started_at": "2026-01-05T00:52:11+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-05T02:32:22+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:52.461+00:00",
         "hevy_workout_id": "04ff8a5b-ec1a-4e67-a1e4-944bc6e6a05b"
       },
@@ -147752,6 +149102,7 @@
         "started_at": "2026-10-01T22:06:56+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-10-01T23:24:37+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-10-01T23:24:41.153+00:00",
         "hevy_workout_id": "cf2bc2d3-a578-4d15-83ab-2c095dbbd26b"
       },
@@ -147763,6 +149114,7 @@
         "started_at": "2026-07-05T23:42:23+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-06T01:21:25+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-06T01:21:28.604+00:00",
         "hevy_workout_id": "50a2cc14-549c-45f3-b6c5-fbcd23fb2d6c"
       },
@@ -147774,6 +149126,7 @@
         "started_at": "2026-01-23T23:22:21+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-24T01:54:08+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:58.3+00:00",
         "hevy_workout_id": "03065456-bd32-461f-bd10-72dd9dfb4705"
       },
@@ -147785,6 +149138,7 @@
         "started_at": "2025-11-05T01:32:12+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-05T03:07:22+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:34.69+00:00",
         "hevy_workout_id": "e1bb1efd-323f-4b15-a099-79a225dcf2ac"
       },
@@ -147796,6 +149150,7 @@
         "started_at": "2026-07-31T22:13:12+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-31T22:55:06+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-31T22:55:09.05+00:00",
         "hevy_workout_id": "3149a854-5375-4c46-85d6-6b2a72cbcaf6"
       },
@@ -147807,6 +149162,7 @@
         "started_at": "2026-02-18T01:27:15+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-18T02:44:12+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-02-18T02:44:16.23+00:00",
         "hevy_workout_id": "88652e97-097e-4425-8b43-c7e965d094c4"
       },
@@ -147818,6 +149174,7 @@
         "started_at": "2026-04-02T23:04:39+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-03T00:32:01+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "5352e5af-c384-4c5c-b58a-3110b5e317a4"
       },
@@ -147829,6 +149186,7 @@
         "started_at": "2026-07-21T01:44:26+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-21T02:52:08+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-21T02:52:13.649+00:00",
         "hevy_workout_id": "cffdbcac-0661-4d32-ad77-07b75459051f"
       },
@@ -147840,6 +149198,7 @@
         "started_at": "2026-05-05T22:54:02+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-06T00:17:37+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:23.448+00:00",
         "hevy_workout_id": "3aa3b28b-63c0-4676-956b-a5c5cf059033"
       },
@@ -147851,6 +149210,7 @@
         "started_at": "2026-08-21T22:06:03+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-22T00:09:08+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-22T00:09:14.073+00:00",
         "hevy_workout_id": "256589b5-f8f9-4326-a3c6-a2ffba2e2cf6"
       },
@@ -147862,6 +149222,7 @@
         "started_at": "2026-05-11T22:43:13+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-12T00:49:26+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:25.137+00:00",
         "hevy_workout_id": "9c2b82ec-f3ab-470e-95fe-4442461ecf7b"
       },
@@ -147873,6 +149234,7 @@
         "started_at": "2026-02-21T01:27:00+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-21T03:08:10+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:05.004+00:00",
         "hevy_workout_id": "6ae7dc62-949e-4efb-b29c-b144a3bce5dc"
       },
@@ -147884,6 +149246,7 @@
         "started_at": "2026-09-01T22:29:23+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-02T00:04:04+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-02T00:04:08.571+00:00",
         "hevy_workout_id": "15812510-1e0c-4e55-814a-207f31ee54ea"
       },
@@ -147895,6 +149258,7 @@
         "started_at": "2026-09-24T23:26:29+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-25T00:41:29+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-25T00:57:45.05+00:00",
         "hevy_workout_id": "534a2eec-600f-4e7c-8ed3-15da09d648a8"
       },
@@ -147906,6 +149270,7 @@
         "started_at": "2026-01-30T23:42:20+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-31T01:46:30+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:59.588+00:00",
         "hevy_workout_id": "a6753079-9771-4104-8c71-54fdb1e180ce"
       },
@@ -147917,6 +149282,7 @@
         "started_at": "2026-10-02T23:08:04+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-10-03T00:40:33+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-10-03T00:40:38.48+00:00",
         "hevy_workout_id": "37b121d2-6fc9-46b5-a943-9c823e2628d9"
       },
@@ -147928,6 +149294,7 @@
         "started_at": "2026-09-29T22:41:20+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-29T23:59:59+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-30T00:00:07.89+00:00",
         "hevy_workout_id": "a3548057-bde2-45db-9531-3493a88aae3e"
       },
@@ -147939,6 +149306,7 @@
         "started_at": "2025-12-08T23:37:09+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-09T01:28:33+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:45.64+00:00",
         "hevy_workout_id": "fa0ffbcc-37ea-4c78-a66a-e1ffbb8c01b3"
       },
@@ -147950,6 +149318,7 @@
         "started_at": "2026-08-24T22:35:05+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-24T23:24:45+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-24T23:24:48.462+00:00",
         "hevy_workout_id": "6eac97d5-419a-465e-9c7a-e8ad235ab40f"
       },
@@ -147961,6 +149330,7 @@
         "started_at": "2026-04-08T23:01:35+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-09T01:11:59+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:17.44+00:00",
         "hevy_workout_id": "9fe67f53-e646-4081-b28b-82e6dbc349ce"
       },
@@ -147972,6 +149342,7 @@
         "started_at": "2026-05-04T16:04:21+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-04T17:47:54+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:22.861+00:00",
         "hevy_workout_id": "bf1c964f-6103-40ee-8625-a8610a598149"
       },
@@ -147983,6 +149354,7 @@
         "started_at": "2026-04-06T00:53:26+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-06T03:06:21+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "263b8f4c-2839-403d-be4e-866e5c1fe835"
       },
@@ -147994,6 +149366,7 @@
         "started_at": "2026-01-13T23:33:15+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-14T00:46:07+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:55.29+00:00",
         "hevy_workout_id": "5cc79452-11f5-4d5f-9527-ba726a843029"
       },
@@ -148005,6 +149378,7 @@
         "started_at": "2025-11-07T01:02:47+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-07T02:13:02+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:35.759+00:00",
         "hevy_workout_id": "b6d1552a-46be-4579-9ea5-321c66b73779"
       },
@@ -148016,6 +149390,7 @@
         "started_at": "2025-11-18T23:43:17+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-19T01:10:02+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:40.082+00:00",
         "hevy_workout_id": "591cb955-9ea5-44d7-b525-bcb30e1f0318"
       },
@@ -148027,6 +149402,7 @@
         "started_at": "2025-11-24T23:39:34+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-25T01:23:03+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:41.718+00:00",
         "hevy_workout_id": "e5bcc178-d510-4aed-9917-881739f41cf2"
       },
@@ -148038,6 +149414,7 @@
         "started_at": "2026-06-20T01:33:40+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-20T03:10:08+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-20T03:10:14.943+00:00",
         "hevy_workout_id": "d7313508-012a-4ca8-a900-5d261036b619"
       },
@@ -148049,6 +149426,7 @@
         "started_at": "2025-11-09T03:06:37+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-09T04:34:06+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:36.317+00:00",
         "hevy_workout_id": "6943aaaa-6895-493c-a433-f5af8d3a11c7"
       },
@@ -148060,6 +149438,7 @@
         "started_at": "2026-06-24T22:57:19+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-25T00:15:53+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-25T00:15:56.86+00:00",
         "hevy_workout_id": "7b9ae6ca-38f3-411c-8f0b-01d8d9c678d8"
       },
@@ -148071,6 +149450,7 @@
         "started_at": "2026-07-03T15:34:10+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-03T17:12:10+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-03T17:25:30.508+00:00",
         "hevy_workout_id": "3b357fff-78a1-4569-8812-cd7bcfc614d1"
       },
@@ -148082,6 +149462,7 @@
         "started_at": "2026-08-05T22:36:18+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-06T00:14:01+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-06T00:14:04.834+00:00",
         "hevy_workout_id": "3c074d9f-8cdb-4142-b206-6ef4bde2b623"
       },
@@ -148093,6 +149474,7 @@
         "started_at": "2026-01-05T23:40:10+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-06T01:29:57+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:53.028+00:00",
         "hevy_workout_id": "f29af432-8f6a-43ba-9e8a-b67f3801aff5"
       },
@@ -148104,6 +149486,7 @@
         "started_at": "2026-01-21T00:00:06+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-01-21T01:49:02+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:57.731+00:00",
         "hevy_workout_id": "36e6a0dd-d939-4599-9105-07473b65fd5f"
       },
@@ -148115,6 +149498,7 @@
         "started_at": "2025-12-02T23:44:05+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-03T00:49:58+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:44.011+00:00",
         "hevy_workout_id": "13f9074e-5c6a-4c7c-9796-7dbf154107dc"
       },
@@ -148126,6 +149510,7 @@
         "started_at": "2026-05-08T21:44:06+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-08T23:40:50+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:24.05+00:00",
         "hevy_workout_id": "b1ed9fb3-f735-477a-afe3-77ae90d877b8"
       },
@@ -148137,6 +149522,7 @@
         "started_at": "2026-03-10T22:52:23+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-11T00:21:32+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "327eaa4a-f104-406e-896e-b2c1ca185968"
       },
@@ -148148,6 +149534,7 @@
         "started_at": "2026-06-12T22:19:00+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-13T00:14:16+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-13T00:14:19.789+00:00",
         "hevy_workout_id": "d695a1d3-b2ad-4ca6-bd1e-b6e4d1a353ff"
       },
@@ -148159,6 +149546,7 @@
         "started_at": "2026-04-13T01:13:02+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-13T02:58:32+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:18.564+00:00",
         "hevy_workout_id": "cfbf7d98-8fbf-453a-84a9-eb63246fe419"
       },
@@ -148170,6 +149558,7 @@
         "started_at": "2026-08-02T23:06:31+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-03T00:39:16+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-03T00:39:23.033+00:00",
         "hevy_workout_id": "78f75475-bc45-40f1-9683-2d510be0773c"
       },
@@ -148181,6 +149570,7 @@
         "started_at": "2026-03-09T01:23:02+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-09T03:13:20+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:07.605+00:00",
         "hevy_workout_id": "59fb6706-71f6-4cdb-a511-2f8b883a56f5"
       },
@@ -148192,6 +149582,7 @@
         "started_at": "2026-07-08T23:38:56+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-09T01:00:17+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-09T01:00:21.137+00:00",
         "hevy_workout_id": "c1599479-8555-4342-a751-b20997333c8e"
       },
@@ -148203,6 +149594,7 @@
         "started_at": "2026-04-30T22:56:58+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-01T00:23:26+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:22.258+00:00",
         "hevy_workout_id": "6fd682c8-fa0e-46b6-9c29-ae649a91b38e"
       },
@@ -148214,6 +149606,7 @@
         "started_at": "2026-04-13T23:12:05+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-14T01:22:55+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:19.151+00:00",
         "hevy_workout_id": "aa126b25-f670-4c03-839e-78968698595d"
       },
@@ -148225,6 +149618,7 @@
         "started_at": "2026-05-19T23:06:37+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-20T00:37:12+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:27.391+00:00",
         "hevy_workout_id": "04aa4f5d-2633-4d93-bae6-c132b635289f"
       },
@@ -148236,6 +149630,7 @@
         "started_at": "2026-04-10T22:36:28+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-11T00:27:51+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:18.003+00:00",
         "hevy_workout_id": "cab3ffb0-4279-47e3-9ae0-06024f5ea40c"
       },
@@ -148247,6 +149642,7 @@
         "started_at": "2026-08-28T22:35:17+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-29T00:25:17+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-29T00:43:48.149+00:00",
         "hevy_workout_id": "d3e43bba-756d-41a6-a6dc-6a4385473569"
       },
@@ -148258,6 +149654,7 @@
         "started_at": "2026-05-22T23:58:19+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-23T01:44:56+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:28.506+00:00",
         "hevy_workout_id": "0135128b-3b06-4733-a519-8fd4863dfe42"
       },
@@ -148269,6 +149666,7 @@
         "started_at": "2026-08-18T22:29:49+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-08-19T00:05:41+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-19T00:05:45.429+00:00",
         "hevy_workout_id": "8a6afd44-ab66-42d1-b3ec-54f8836d9a4e"
       },
@@ -148280,6 +149678,7 @@
         "started_at": "2026-05-12T23:04:22+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-05-13T00:27:46+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:25.714+00:00",
         "hevy_workout_id": "52a45b08-1a6a-4e45-91a6-becda67f02a7"
       },
@@ -148291,6 +149690,7 @@
         "started_at": "2026-02-25T01:47:37+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-25T03:47:22+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:05.778+00:00",
         "hevy_workout_id": "c66e3f96-4d1e-4e67-8bfd-1308da303d60"
       },
@@ -148302,6 +149702,7 @@
         "started_at": "2025-11-06T01:07:58+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-06T02:32:50+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:35.206+00:00",
         "hevy_workout_id": "0fbcee01-679b-4b46-8fee-4c4687ba2077"
       },
@@ -148313,6 +149714,7 @@
         "started_at": "2026-07-11T13:55:33+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-11T15:20:27+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-11T15:20:30.7+00:00",
         "hevy_workout_id": "31529511-48a3-4ab4-b68a-bbd9ba25d6d6"
       },
@@ -148324,6 +149726,7 @@
         "started_at": "2026-07-27T22:04:55+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-27T23:43:17+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-27T23:43:20.729+00:00",
         "hevy_workout_id": "ced1e9b4-484a-4732-96e6-a4f59f25d35d"
       },
@@ -148335,6 +149738,7 @@
         "started_at": "2026-02-14T00:07:07+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-14T02:13:15+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:02.719+00:00",
         "hevy_workout_id": "c154a520-6ae2-462b-aa29-ef058d5f0c9b"
       },
@@ -148346,6 +149750,7 @@
         "started_at": "2025-12-07T21:10:53+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-07T22:56:19+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:45.11+00:00",
         "hevy_workout_id": "a4452aa0-306d-4980-bc10-c46b5e1ffa14"
       },
@@ -148357,6 +149762,7 @@
         "started_at": "2025-12-28T23:29:32+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-29T00:58:01+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:50.16+00:00",
         "hevy_workout_id": "aae97c93-87b7-4c6d-b7db-027559339fbf"
       },
@@ -148368,6 +149774,7 @@
         "started_at": "2026-02-03T23:59:33+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-04T01:43:33+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:00.739+00:00",
         "hevy_workout_id": "e335e1aa-3dad-4653-a4b7-9a9e5c735857"
       },
@@ -148379,6 +149786,7 @@
         "started_at": "2026-06-30T22:40:13+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-01T01:01:13+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-01T01:09:57.541+00:00",
         "hevy_workout_id": "c04bfc00-c3a7-4425-9e5b-584d5c71f9d0"
       },
@@ -148390,6 +149798,7 @@
         "started_at": "2026-03-18T01:23:50+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-18T03:06:47+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "3046a900-b979-41b6-915e-206ec1e2227b"
       },
@@ -148401,6 +149810,7 @@
         "started_at": "2026-02-06T16:38:32+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-06T18:38:21+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:01.314+00:00",
         "hevy_workout_id": "7b05bbb8-47fe-4e00-b62b-3f1268dc3ad7"
       },
@@ -148412,6 +149822,7 @@
         "started_at": "2026-07-30T22:33:17+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-30T23:50:35+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-30T23:50:38.71+00:00",
         "hevy_workout_id": "dd327f7d-51a6-40c9-a7f4-2133d7ac95b6"
       },
@@ -148423,6 +149834,7 @@
         "started_at": "2026-04-27T23:09:46+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-28T01:04:46+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:21.512+00:00",
         "hevy_workout_id": "c77454fa-1555-4d37-8e62-dba6a35f9dbf"
       },
@@ -148434,6 +149846,7 @@
         "started_at": "2026-04-01T22:48:09+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-02T00:28:33+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "974f100e-82a7-45d0-9021-ff8f97020804"
       },
@@ -148445,6 +149858,7 @@
         "started_at": "2026-03-13T00:06:29+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-13T01:51:31+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "86c54dfc-42f9-4dad-80d5-5b454ec45043"
       },
@@ -148456,6 +149870,7 @@
         "started_at": "2026-04-07T23:13:31+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-04-08T01:00:13+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "bce36340-2579-4e6d-b31e-de6e843c0dca"
       },
@@ -148467,6 +149882,7 @@
         "started_at": "2026-06-28T01:07:43+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-28T02:30:14+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-28T02:30:19.704+00:00",
         "hevy_workout_id": "e953c76e-bb73-4250-a66d-d28cb39a55a4"
       },
@@ -148478,6 +149894,7 @@
         "started_at": "2026-06-06T16:04:09+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-06T17:18:03+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:54:33.135+00:00",
         "hevy_workout_id": "4f04f25a-ffe1-4471-942a-59ec9c6d53f8"
       },
@@ -148489,6 +149906,7 @@
         "started_at": "2026-09-03T22:28:56+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-09-03T23:38:34+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-09-03T23:38:37.334+00:00",
         "hevy_workout_id": "ab996c2d-385e-4b34-a583-b2b194b3388d"
       },
@@ -148500,6 +149918,7 @@
         "started_at": "2025-11-18T00:07:09+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-18T01:52:36+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:39.524+00:00",
         "hevy_workout_id": "66a418f7-4d82-4b34-bd3c-5901dffe30a3"
       },
@@ -148511,6 +149930,7 @@
         "started_at": "2026-06-23T23:40:03+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-24T01:33:30+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-24T01:33:38.615+00:00",
         "hevy_workout_id": "3284f570-edfd-401a-b4f2-7c7e54dd7cb7"
       },
@@ -148522,6 +149942,7 @@
         "started_at": "2026-07-01T23:05:05+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-02T00:17:37+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-02T00:17:40.631+00:00",
         "hevy_workout_id": "7a6e4a66-2bab-4b40-8eb1-207e6e10c387"
       },
@@ -148533,6 +149954,7 @@
         "started_at": "2025-12-05T23:49:31+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-12-06T02:33:52+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:44.574+00:00",
         "hevy_workout_id": "480859fb-7c16-40a7-9bd5-a30a1b4551ac"
       },
@@ -148544,6 +149966,7 @@
         "started_at": "2026-03-10T00:56:37+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-10T01:19:13+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-03-10T01:19:18.459+00:00",
         "hevy_workout_id": "41569a80-e85f-4c14-bc4b-f4949c544db0"
       },
@@ -148555,6 +149978,7 @@
         "started_at": "2026-07-28T21:22:11+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-28T22:43:07+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-28T22:43:15.499+00:00",
         "hevy_workout_id": "fa90a212-4640-4388-82f8-2306ff4a067e"
       },
@@ -148566,6 +149990,7 @@
         "started_at": "2025-11-11T00:06:45+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2025-11-11T01:51:59+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-08T23:53:36.867+00:00",
         "hevy_workout_id": "a33d8730-d7e2-42bb-9b2b-6a0cad46661b"
       },
@@ -148577,6 +150002,7 @@
         "started_at": "2026-10-12T23:26:34.059+00:00",
         "updated_at": "2026-10-13T00:59:37.086505+00:00",
         "finished_at": "2026-10-13T00:59:36.912+00:00",
+        "discarded_at": null,
         "hevy_updated_at": null,
         "hevy_workout_id": null
       },
@@ -148588,6 +150014,7 @@
         "started_at": "2026-06-26T23:40:39+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-06-27T01:44:49+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-06-27T01:44:52.822+00:00",
         "hevy_workout_id": "853f728d-e3fe-4ba4-8844-45c3f9875f52"
       },
@@ -148599,6 +150026,7 @@
         "started_at": "2026-07-23T22:27:56+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-07-23T23:36:57+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-07-23T23:37:07.833+00:00",
         "hevy_workout_id": "eb949444-2949-4a12-a9e9-b68c40b86b3b"
       },
@@ -148610,6 +150038,7 @@
         "started_at": "2026-03-24T00:05:58+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-24T01:30:24+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "ffae50dd-ac10-4dbb-acd4-e973b16887e5"
       },
@@ -148621,6 +150050,7 @@
         "started_at": "2026-03-06T23:47:10+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-03-07T01:17:53+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-08-21T22:05:48.27+00:00",
         "hevy_workout_id": "91417b42-3880-45fc-9e13-adc45c6f1fe1"
       },
@@ -148632,6 +150062,7 @@
         "started_at": "2026-02-08T16:54:45+00:00",
         "updated_at": "2026-10-12T21:14:42.032673+00:00",
         "finished_at": "2026-02-08T17:26:03+00:00",
+        "discarded_at": null,
         "hevy_updated_at": "2026-02-08T17:26:05.901+00:00",
         "hevy_workout_id": "c5b463e8-1bda-4d68-83e8-10e0700dbb59"
       }
